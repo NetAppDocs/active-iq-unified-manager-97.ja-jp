@@ -1,0 +1,20 @@
+---
+permalink: online-help/concept-fixing-ontap-issues-directly-from-unified-manager.html 
+sidebar: sidebar 
+keywords: fix it 
+summary: Unified Manager 9.7以降では、ONTAP の一部の問題について、ONTAP System ManagerやONTAP CLIを使用せずにUnified Managerユーザインターフェイスから直接修正することができます。 
+---
+= ONTAP の問題を Unified Manager から直接修正
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager 9.7以降では、ONTAP の一部の問題について、ONTAP System ManagerやONTAP CLIを使用せずにUnified Managerユーザインターフェイスから直接修正することができます。
+
+「管理操作」という新しい機能により、Unified ManagerのイベントをトリガーしたONTAP のさまざまな問題が修正されています。管理操作は、ダッシュボード、イベントの詳細ページ、および左側のナビゲーションメニューのワークロード分析で実行できます。
+
+問題によっては、 Unified Manager の詳細な診断によって 1 つの解決策が提供されることがあります。解決策がある場合は、 [ 管理アクション ] の [ * 修正 ] ボタンで表示されます。[* Fix it* （修正） ] ボタンをクリックして、問題を修正します。
+
+Unified Manager からクラスタに ONTAP コマンドが送信され、要求された修正が実行されます。修正が完了すると、イベントは廃止状態になります。

@@ -1,0 +1,31 @@
+---
+permalink: online-help/task-fixing-issues-using-um-automatic-remediations.html 
+sidebar: sidebar 
+keywords: fix it,fix issues 
+summary: イベントによっては、 Unified Manager の詳細な診断によって 1 つの解決策が提供されることがあります。解決策がある場合は、ダッシュボード、イベントの詳細ページ、左側のナビゲーションメニューのワークロード分析の順に表示されます。 
+---
+= Unified Manager の自動修正措置を使用した問題の修正
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+イベントによっては、 Unified Manager の詳細な診断によって 1 つの解決策が提供されることがあります。解決策がある場合は、ダッシュボード、イベントの詳細ページ、左側のナビゲーションメニューのワークロード分析の順に表示されます。
+
+
+
+== このタスクについて
+
+ほとんどのイベントではイベントの詳細ページにさまざまな解決策が表示されるため、 ONTAP システムマネージャまたは ONTAP CLI を使用して最適な解決策を実装できます。
+
+
+
+== 手順
+
+. * ダッシュボード * から解決できるイベントを表示するには、 * ダッシュボード * をクリックします。
++
+image::../media/management-actions.png[管理操作]
+
+. Unified Manager で修正可能な問題を解決するには、 * 修正 * ボタンをクリックします。
+

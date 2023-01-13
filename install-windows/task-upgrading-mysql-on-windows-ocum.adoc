@@ -1,0 +1,50 @@
+---
+permalink: install-windows/task-upgrading-mysql-on-windows-ocum.html 
+sidebar: sidebar 
+keywords: Active IQ Unified Manager 
+summary: Unified ManagerがインストールされているWindowsサーバでは、MySQLをバージョンアップしてセキュリティの脆弱性に対する修正を入手できます。マイナーアップグレードの場合、MySQLの基本バージョンは8.0.17以降である必要があります。システムにインストールされているMySQLのバージョンが8.0.17より前の場合、Unified Manager 9.7のアップグレードプロセスによってMySQLが8.0.17に自動的にアップグレードされます。旧バージョンから8.0.17へのMySQLのスタンドアロンアップグレードは実行しないでください。 
+---
+= MySQLをアップグレードする
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified ManagerがインストールされているWindowsサーバでは、MySQLをバージョンアップしてセキュリティの脆弱性に対する修正を入手できます。マイナーアップグレードの場合、MySQLの基本バージョンは8.0.17以降である必要があります。システムにインストールされているMySQLのバージョンが8.0.17より前の場合、Unified Manager 9.7のアップグレードプロセスによってMySQLが8.0.17に自動的にアップグレードされます。旧バージョンから8.0.17へのMySQLのスタンドアロンアップグレードは実行しないでください。
+
+
+
+== 作業を開始する前に
+
+[NOTE]
+====
+システムにインストールされているMySQLのバージョンが5.7の場合は、MySQLをバージョン8.0.17に直接アップグレードしないでください。その結果、アプリケーションのデータが失われます。
+
+====
+* Unified Manager がインストールされている Windows システムに対する admin 権限が必要です。
+* MySQLのrootユーザのパスワードが必要です。
+
+
+
+
+== 手順
+
+. Unified Manager ホストマシンに admin ユーザとしてログインします。
+. 該当するバージョンの MySQL をターゲットシステムにダウンロードします。
+. Windows サービスコンソールを使用して、次の Unified Manager サービスを停止します。
++
+** NetApp Active IQ 取得サービス（ Ocie-au ）
+** NetApp Active IQ 管理サーバサービス（ Oncommandsvc ）
+** MYSQL8
+
+
+. をクリックします `.msi` パッケージでMySQLのアップグレードを呼び出し、画面の指示に従ってアップグレードを完了します。
+. Windows サービスコンソールを使用して Unified Manager サービスを開始します。
++
+** MYSQL8
+** NetApp Active IQ 管理サーバサービス（ Oncommandsvc ）
+** NetApp Active IQ 取得サービス（ Ocie-au ）
+
+
+

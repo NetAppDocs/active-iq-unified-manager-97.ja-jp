@@ -1,0 +1,63 @@
+---
+permalink: online-help/reference-what-ontap-issues-can-unified-manager-fix.html 
+sidebar: sidebar 
+keywords: fix it 
+summary: この表では、Unified Managerユーザインターフェイスの修正ボタンをクリックしてUnified Managerから直接解決できるONTAP の問題について説明します。 
+---
+= Unified Managerで解決可能なONTAP の問題
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+次の表に、Unified Managerユーザインターフェイスの* Fix it *ボタンをクリックしてUnified Managerから直接解決できるONTAP の問題を示します。
+
+[cols="1a,1a,1a"]
+|===
+| イベント名と概要 | 管理操作 | 「Fix it」操作 
+
+
+ a| 
+ボリュームスペースがフルです
+
+ボリュームにスペースがほとんど残っておらず、容量の「フル」しきい値を超えています。このしきい値は、デフォルトではボリュームサイズの 90% に設定されています。
+ a| 
+ボリュームの自動拡張を有効にする
+ a| 
+Unified Managerはこのボリュームにボリュームの自動拡張が設定されていないことを特定し、スペースの使用状況に応じてサイズが拡張または縮小されるようにこの機能を有効にします。
+
+
+
+ a| 
+オプション cf.takeover.on_panic の設定が OFF になっています
+
+ノードシェル・オプション「cf.takeover.on_panic」は、HA構成のシステムで問題 を原因 できる* off *に設定されています。
+ a| 
+パニック時のテイクオーバーを有効にする
+ a| 
+Unified Manager が該当するコマンドを送信し、この設定を * on * に変更します。
+
+
+
+ a| 
+ノードシェルオプション snapmirror.enable を無効化
+
+古いノードシェル・オプション「snapmirror.enable」は* on *に設定されており、ONTAP 9.3以降へのアップグレード後、ブート時に問題 を原因 することができます。
+ a| 
+snapmirror.enable オプションを off に設定します
+ a| 
+Unified Manager が該当するコマンドを送信し、この設定を * off * に変更します。
+
+
+
+ a| 
+Telnet が有効です
+
+Telnet は安全性が高くなく、暗号化されていない方法でデータが渡されるため、潜在的なセキュリティ問題を示します。
+ a| 
+Telnet を無効にします
+ a| 
+Unified Managerがクラスタに次のコマンドを送信し、Telnetを無効にします。 `security protocol modify -application telnet -enabled false`
+
+|===

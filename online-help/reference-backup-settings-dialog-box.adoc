@@ -1,0 +1,74 @@
+---
+permalink: online-help/reference-backup-settings-dialog-box.html 
+sidebar: sidebar 
+keywords:  
+summary: バックアップ設定ダイアログボックスを使用して、選択したUnified Managerインスタンスについて、バックアップパスと保持数を指定したり、バックアップスケジュールを有効にしたりできます。 
+---
+= Backup Settingsダイアログボックス
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+バックアップ設定ダイアログボックスを使用して、選択したUnified Managerインスタンスについて、バックアップパスと保持数を指定したり、バックアップスケジュールを有効にしたりできます。
+
+次のデータベースバックアップ設定を変更できます。
+
+* * パス *
++
+バックアップファイルの保存先のパスを指定します。次の表に、バックアップパスの形式とデフォルトの場所をオペレーティングシステム別に示します。
+
++
+[cols="1a,1a"]
+|===
+| ホストオペレーティングシステム | バックアップパスの形式 
+
+
+ a| 
+仮想アプライアンス
+ a| 
+`/opt/netapp/data/ocum-backup`
+
+
+
+ a| 
+Red Hat Enterprise Linux または CentOS
+ a| 
+`/data/ocum-backup`
+
+
+
+ a| 
+Microsoft Windows の場合
+ a| 
+`C:\ProgramData\NetApp\OnCommandAppData\ocum\backup\`
+
+|===
+* *保持数*
++
+Unified Managerでバックアップを保持する最大数を指定します。デフォルト値は10です。
+
+* *毎日スケジュール*
++
+日次バックアップを実行する時刻を指定します。
+
+* *毎週スケジュール*
++
+週次バックアップを実行する曜日と時刻を指定します。
+
+* * なし *
++
+バックアップは作成されません。
+
+
+
+
+
+== コマンドボタン
+
+* * 適用 *
++
+バックアップファイルを保存してダイアログボックスを閉じます。Unified Managerでは、次の形式でバックアップファイルが保存されます。 `um_um_version_backup_os_timestamp.7z`。
+
+

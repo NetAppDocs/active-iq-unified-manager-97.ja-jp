@@ -1,0 +1,23 @@
+---
+permalink: online-help/concept-managing-feature-settings.html 
+sidebar: sidebar 
+keywords: uploading scripts,API gateway,SLO or policy-based storage management,timeout,Active IQ platform events 
+summary: Feature Settingsページでは、ポリシーに基づいたストレージオブジェクトの作成と管理、APIゲートウェイの有効化、アラート管理用スクリプトのアップロード、一定時間非アクティブ時のセッションのタイムアウトなど、Active IQ Unified Manager の特定の機能を有効または無効にすることができます。Active IQ プラットフォームイベントの受信を無効にします。 
+---
+= 機能設定の管理
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Feature Settingsページでは、ポリシーに基づいたストレージオブジェクトの作成と管理、APIゲートウェイの有効化、アラート管理用スクリプトのアップロード、一定時間非アクティブ時のセッションのタイムアウトなど、Active IQ Unified Manager の特定の機能を有効または無効にすることができます。Active IQ プラットフォームイベントの受信を無効にします。
+
+[NOTE]
+====
+[ 機能の設定 ] ページは、アプリケーション管理者ロールを持つユーザーのみが使用できます。
+
+====
+スクリプトのアップロードについては、「スクリプトアップロード機能の有効化と無効化」を参照してください。
+
+スクリプトアップロード機能の有効化と無効化

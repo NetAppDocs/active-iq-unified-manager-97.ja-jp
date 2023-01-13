@@ -1,0 +1,18 @@
+---
+permalink: reporting/concept-unified-manager-reporting.html 
+sidebar: sidebar 
+keywords:  
+summary: Active IQ Unified Manager \（旧OnCommand Unified Manager \）では、ONTAP ストレージシステムのレポートを表示、カスタマイズ、ダウンロード、およびスケジュール設定できます。レポートには、ストレージシステムの容量、健全性、パフォーマンス、保護関係に関する詳細を表示できます。 
+---
+= Unified Manager のレポート機能
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Active IQ Unified Manager （旧 OnCommand Unified Manager ）では、 ONTAP ストレージシステムのレポートを表示、カスタマイズ、ダウンロード、およびスケジュール設定できます。レポートには、ストレージシステムの容量、健全性、パフォーマンス、保護関係に関する詳細を表示できます。
+
+Active IQ Unified Manager 9.6 で導入された新しい Unified Manager レポート作成機能およびスケジュール設定機能は、 Unified Manager バージョン 9.5 で廃止された以前のレポート作成エンジンに代わるものです。
+
+レポート機能により、ネットワークのさまざまなビューを利用して、容量、健全性、パフォーマンス、保護データに関する実用的な情報を得ることができます。このビューは、列の表示と非表示の切り替え、列の再配置、データのフィルタリング、データのソート、結果の検索によってカスタマイズできます。カスタムビューは、再利用できるように保存したり、レポートとしてダウンロードしたりできます。また、定期的なレポートとしてスケジュールを設定して、 E メールで配布することもできます。
