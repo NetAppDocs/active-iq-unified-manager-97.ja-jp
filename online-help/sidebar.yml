@@ -1431,5 +1431,3 @@ entries:
     url: "/online-help/reference-user-not-found.html"
   - title: 問題で他の認証サービスを使用して LDAP を追加
     url: "/online-help/reference-issue-with-adding-ldap-using-other-authentication-services.html"
-- title: マニュアルの更新について
-  url: "/online-help/concept-how-to-send-comments-about-documentation-and-receive-update-notifications-netapp-post-preface.html"

@@ -36,7 +36,7 @@ entries:
     - title: ボリューム / 健全性の詳細ページで保護関係を反転しています
       url: "/data-protection/task-reversing-protection-relationships-from-the-health-volume-details-page.html"
     - title: ボリューム / 健全性の詳細ページから保護関係を削除しています
-      url: "/data-protection/.html"
+      url: "/data-protection/task-removing-a-protection-relationship-from-the-health-volume-details-page.html"
     - title: ボリューム / 健全性の詳細ページから保護関係を再同期しています
       url: "/data-protection/task-resynchronizing-protection-relationships-from-the-health-volume-details-page.html"
   - title: 保護ジョブの失敗を解決する
