@@ -74,7 +74,7 @@ Red Hat Subscription Manager については、 Red Hat のドキュメントを
 システムで EPEL リポジトリが設定されていない場合は、リポジトリを手動でダウンロードして設定する必要があります。
 
 +
-link:task-manually-configuring-the-epel-repository.adoc["EPEL リポジトリを手動で設定します"]
+link:task-manually-configuring-the-epel-repository.html["EPEL リポジトリを手動で設定します"]
 
 * 正しいバージョンの MySQL がインストールされていない場合は、システムに MySQL ソフトウェアが正しくインストールされるように MySQL リポジトリを有効にする必要があります。
 +

@@ -56,7 +56,7 @@ vCenter Serverでは、特殊文字（%、&、*、$、#、@、！、\、/、：�
 . VM の横にある下矢印をクリックすると、コンピューティング、ネットワーク、ストレージの各レイヤにあるコンポーネントのトポロジのサマリビューが表示されます。レイテンシの問題があるノードは強調表示されます。サマリビューには、コンポーネントのワーストレイテンシが表示されます。たとえば、 VM に複数の仮想ディスクがある場合、すべての仮想ディスクの中で最もレイテンシが高い仮想ディスクが表示されます。
 . 一定期間にわたるデータストアのレイテンシとスループットを分析するには、データストアオブジェクトアイコンの上にある * Workload Analyzer * ボタンをクリックします。ワークロード分析ページに移動して、期間を選択し、データストアのパフォーマンスチャートを表示できます。Workload Analyzer の詳細については、 Workload Analyzer を使用したワークロードのトラブルシューティング _ を参照してください。
 +
-link:concept-troubleshooting-workloads-using-the-workload-analyzer.adoc["Workload Analyzer を使用したワークロードのトラブルシューティング"]
+link:concept-troubleshooting-workloads-using-the-workload-analyzer.html["Workload Analyzer を使用したワークロードのトラブルシューティング"]
 
 
 

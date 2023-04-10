@@ -18,7 +18,7 @@ summary: VMware vSphere プラットフォームの Unified Manager のクイッ
 * 空きディスクスペース： 5GB （シンプロビジョニング）、 152GB （シックプロビジョニング）
 
 
-システム要件の詳細については、を参照してください link:./install-vapp/concept-requirements-for-installing-unified-manager.html["Unified Manager をインストールするための要件"] および link:http://mysupport.netapp.com/matrix["互換性マトリックス"]。
+システム要件の詳細については、を参照してください link:concept-requirements-for-installing-unified-manager.html["Unified Manager をインストールするための要件"] および link:http://mysupport.netapp.com/matrix["互換性マトリックス"]。
 
 
 

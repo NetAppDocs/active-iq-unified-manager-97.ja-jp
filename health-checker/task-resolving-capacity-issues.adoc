@@ -35,7 +35,7 @@ summary: このワークフローでは、容量問題を解決する方法の�
 
 . イベント * の詳細ページでは、次のタスクを 1 つ以上実行できます。
 +
-** 原因フィールドのエラーメッセージを確認し、 Suggested Remedial Actions の下の提案をクリックして、考えられる修正方法の説明を確認します。 link:task-performing-suggested-remedial-actions-for-a-full-volume.adoc["ボリュームがフルになった場合の推奨修正策の実施"]
+** 原因フィールドのエラーメッセージを確認し、 Suggested Remedial Actions の下の提案をクリックして、考えられる修正方法の説明を確認します。 link:task-performing-suggested-remedial-actions-for-a-full-volume.html["ボリュームがフルになった場合の推奨修正策の実施"]
 ** オブジェクトの詳細を表示するには、ソースフィールドでオブジェクト名（この場合はボリューム）をクリックします。 xref:reference-health-volume-details-page.adoc[ボリュームの詳細ページ]
 ** このイベントに関して追加されたメモを探します。 xref:task-adding-and-reviewing-notes-about-an-event.adoc[イベントに関連するメモの追加と確認]
 ** イベントにメモを追加します。 xref:task-adding-and-reviewing-notes-about-an-event.adoc[イベントに関連するメモの追加と確認]

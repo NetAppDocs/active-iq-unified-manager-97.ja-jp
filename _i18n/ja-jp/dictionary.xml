@@ -521,13 +521,11 @@
   <block id="031a28ccbd7de3572a1cc7884f4803d3" category="list-text">2 つのクラスタまたは 2 つの Storage Virtual Machine （ SVM ）間にピア関係を確立しておく必要があります。</block>
   <block id="fc6ca4cf30ee3b9b38b2abb695f0f9c3" category="list-text">OnCommand Workflow Automation を Unified Manager に統合する必要があります。</block>
   <block id="9fe21fedf7305d77031a6284024994ea" category="inline-link-macro">OnCommand Workflow Automation をセットアップする</block>
-  <block id="bf736f6bb23af57a8ae0f92aada7af91" category="list-text"><block ref="bf736f6bb23af57a8ae0f92aada7af91" category="inline-link-macro-rx"></block></block>
   <block id="f941d418cae1dc73178c4c055a856d41" category="list-text"><block ref="f941d418cae1dc73178c4c055a856d41" category="inline-xref-macro-rx"></block></block>
   <block id="b6ff9ac71a64cd241295fae2fd7f1502" category="list-text">作成する保護関係のタイプに応じて、次のいずれかを実行します。</block>
   <block id="5d2b0ffd64f891f66da28990d5d18ec6" category="inline-xref-macro">SnapMirror 保護関係を作成する</block>
   <block id="43db12653a1c210ab3d8642e7e356a21" category="list-text"><block ref="014291d4a9e75190d4192a21908388ce" category="inline-xref-macro-rx"></block>。</block>
   <block id="d0b82b5e5a3a52642c4373b65e59d68b" category="inline-link-macro">SnapVault 保護関係を作成する</block>
-  <block id="df3efe3b6bee9aa901d5d86b2898c91b" category="list-text"><block ref="bff1165017eb39b4496a02e24ba82e35" category="inline-link-macro-rx"></block>。</block>
   <block id="020b223b7c962e3291bc388001eb3e1d" category="list-text">関係のポリシーを作成する場合は、作成する関係タイプに応じて、次のいずれかを実行します。</block>
   <block id="6ff69f53781f3de3805e6689f585b380" category="inline-xref-macro">SnapVault ポリシーを作成する</block>
   <block id="a1dafd7a03b16b5b9f0be7dbdb706fc4" category="list-text"><block ref="f94900083af82ccc62d9fb411c53c1bb" category="inline-xref-macro-rx"></block>。</block>
@@ -2876,7 +2874,6 @@
   <block id="a2992f349299086d8d17ee3b7a471aa7" category="list-text">CPU ：合計 9572MHz</block>
   <block id="781c32908473254b5a4d86a06486a7b7" category="list-text">空きディスクスペース： 5GB （シンプロビジョニング）、 152GB （シックプロビジョニング）</block>
   <block id="dc351b2abbd920b35cff990b6582b9d7" category="inline-link-macro">互換性マトリックス</block>
-  <block id="ea6b5bad3425ffef13e8695824653240" category="paragraph">システム要件の詳細については、を参照してください <block ref="e6936a3c2c4d99a5cfe11a74b21ad8a5" category="inline-link-macro-rx"></block> および <block ref="6b67f16fed93b756518b295cb43f355b" category="inline-link-macro-rx"></block>。</block>
   <block id="9a3029780c58dd5c4ae9d7c235aacc2e" category="section-title">Active IQ Unified Manager をインストールしています</block>
   <block id="be4d885e0542a29fcfbb71c1ff5a5cb0" category="section-title">インストーラをダウンロードします。</block>
   <block id="80cd4cbe1704d7224b26b62877da23b2" category="list-text">をダウンロードします<block ref="58963a595c988dc6f693cb3238dc907a" prefix=" " category="inline-code"></block> ルート証明書を含むファイル<block ref="c47c7c7383225ab55ff591cb59c41e6b" prefix=" " category="inline-code"></block> ファイル、および<block ref="586ba478b7ebec665f3df120799b6c2e" prefix=" " category="inline-code"></block> ファイル。</block>
@@ -3197,7 +3194,6 @@
   <block id="4c8433166e04a5e47b074c550210be33" category="paragraph">エラーのイベントの詳細ページが表示されます。</block>
   <block id="e4c131bc85ba085c99a3d24455f899c0" category="list-text">イベント * の詳細ページでは、次のタスクを 1 つ以上実行できます。</block>
   <block id="5123785ba44b9602ac5318d31713465a" category="inline-link-macro">ボリュームがフルになった場合の推奨修正策の実施</block>
-  <block id="164b0e53a836c4e02d3650db7d86c36c" category="list-text">原因フィールドのエラーメッセージを確認し、 Suggested Remedial Actions の下の提案をクリックして、考えられる修正方法の説明を確認します。 <block ref="dc648a8bc40534b38d4afbc8e3dedf02" category="inline-link-macro-rx"></block></block>
   <block id="2df5484eb422d262f1c0080f3c33b823" category="inline-xref-macro">ボリュームの詳細ページ</block>
   <block id="0db6c498c56aae598046d084e3163dd8" category="list-text">オブジェクトの詳細を表示するには、ソースフィールドでオブジェクト名（この場合はボリューム）をクリックします。 <block ref="1e5be2009b191f5cbd0585cd1b7faa50" category="inline-xref-macro-rx"></block></block>
   <block id="d2796bc844db718566017d009c9ec3a1" category="inline-xref-macro">イベントに関連するメモの追加と確認</block>
@@ -4540,7 +4536,6 @@
   <block id="e5d07b1223a312f4b924e03868e15c74" category="paragraph">イベント概要には、イベントがトリガーされた理由が含まれる場合があります。</block>
   <block id="935c648586b1d00e91c9aed75c3ec7ad" category="list-text">* 競合状態のコンポーネント *</block>
   <block id="a638acac63340211b46a03f6db1bad1f" category="paragraph">動的なパフォーマンスイベントについて、クラスタの論理コンポーネントと物理コンポーネントを表すアイコンが表示されます。コンポーネントが競合状態にある場合は、アイコンが赤い丸で強調表示されます。</block>
-  <block id="50db78f7c6f8311cd52dcb3e51a3b89d" category="paragraph">を参照してください <block ref="16e87216931e426be7c40c44d34094b9" category="inline-link-macro-rx"></block> ここに表示されている構成要素の概要 の場合。</block>
   <block id="b9cb664a9969c3b20e0e188d1fb6478d" category="paragraph">「イベント情報」、「システム診断」、および「推奨処置」の各セクションについては、他のトピックで説明しています。</block>
   <block id="a67ddca76adf43ec028318ef944520e3" category="list-text">* メモアイコン *</block>
   <block id="a76331d14425953ebfe5bda11894fb40" category="paragraph">イベントに関するメモを追加または更新したり、他のユーザが残したすべてのメモを確認したりできます。</block>
@@ -5276,11 +5271,9 @@
   <block id="f32ced6a9ba164c4b3c047fd1d7c882e" category="list-text">日本語</block>
   <block id="1e81fc32fea0e9f3a978661e4b5e484d" category="list-text">簡体字中国語</block>
   <block id="ce144bc93be4300e9c20965d4a541b93" category="list-text">空きディスクスペース：インストールディレクトリ用に 100GB 、 MySQL データディレクトリ用に 50GB のディスクスペースが必要です</block>
-  <block id="00ce2fd86cb6880d2be28e95af57765c" category="paragraph">システム要件の詳細については、を参照してください <block ref="3492ab28a0daefa113aca361669de85d" category="inline-link-macro-rx"></block> および <block ref="6b67f16fed93b756518b295cb43f355b" category="inline-link-macro-rx"></block>。</block>
   <block id="fe477fb8f5012f10b95318c29b24ba27" category="list-text">をダウンロードします<block ref="3432d6273cf05f582f2668c16220db86" prefix=" " category="inline-code"></block> インストールパッケージ：</block>
   <block id="9fa35674a7d450b5af2cb972df71de22" category="list-text">インストールファイルをターゲットシステムのディレクトリにコピーします。</block>
   <block id="abbfbdaf21746bca446ca43c755eb8ef" category="inline-link-macro">Windows ソフトウェアとインストールの要件</block>
-  <block id="d1ef14de2e7ab8f44d4a931119e1721a" category="paragraph">Unified Manager をインストールするには、 Microsoft .NET 4.5.2 以降のバージョンがインストールされている必要があります。インストールプロセスの一環として、 Unified Manager は必要に応じて他のサードパーティパッケージをインストールします。依存するソフトウェアパッケージの詳細については、を参照してください <block ref="41439f63c5edcef1644c63ce7b857ef3" category="inline-link-macro-rx"></block>。</block>
   <block id="dbc2181fcd30e32fd20a72c97f99d008" category="list-text">インストールファイルをダウンロードしたディレクトリで、 Unified Manager の実行ファイル（ .exe ファイル）を右クリックし、管理者として実行します。</block>
   <block id="55aa1733d6abe99d7ba4f41ab73f3a34" category="list-text">プロンプトが表示されたら、ユーザ名とパスワードを入力して Unified Manager のメンテナンスユーザを作成します。</block>
   <block id="cf84f1efc2b94e2be0cfb3168fbb6f79" category="list-text">データベース接続ウィザードで、 MySQL の root パスワードを入力します。</block>
@@ -6045,7 +6038,6 @@
   <block id="5ea9949c5a1488a045fd377101c74d86" category="list-text">* パフォーマンスチャート領域 *</block>
   <block id="ea35f14d5f4e22cfd8d3d3ca79d3ebf1" category="paragraph">選択した期間のレイテンシ、スループット（ IOPS と MBps の両方）、利用率（ノードとアグリゲートの両方）のグラフが表示されます。さらに分析を行う場合は、 View performance details リンクをクリックしてワークロードの Performance Explorer ページを表示できます。</block>
   <block id="8159cc62f0bcddc4a9a50531f80d5ecc" category="list-text">* Latency *はワークロードのレイテンシを表示します。このグラフには3つのビューがあり、それぞれ合計レイテンシ、読み取り/書き込み/その他プロセス別の内訳、クラスタコンポーネント別の内訳が表示されます。</block>
-  <block id="bb7edce326fbee68509f1f4b689c7058" category="paragraph">を参照してください <block ref="16e87216931e426be7c40c44d34094b9" category="inline-link-macro-rx"></block> 表示されるクラスタコンポーネントの概要の場合。</block>
   <block id="b7e13471b3dd524247dcddd753f81d04" category="list-text">* Throughput *には、ワークロードのIOPSとMBpsの両方のスループットが表示されます。このグラフには2つのビューがあり、それぞれ合計スループットと読み取り/書き込み/その他プロセス別の内訳が表示されます。</block>
   <block id="4e5ed85dca388a3a31749e59f754fc1c" category="paragraph">このグラフには、Quality of Service（QoS；サービス品質）の最大スループットと最小スループットのしきい値の設定も表示されます（設定されている場合）。そのため、システムによって意図的にスループットが制限されているかどうかを確認できます。</block>
   <block id="029ce6d34719fa88e1d0d9ec2d5f40ab" category="list-text">* Utilization *には、ワークロードを実行しているアグリゲートとノードの両方の利用率が表示されます。ここから、アグリゲートまたはノードが過剰に使用され、その結果レイテンシが高くなっていないかどうかを確認できます。FlexGroup ボリュームを分析している場合は、利用率グラフに複数のノードと複数のアグリゲートが表示されます。</block>
@@ -7440,9 +7432,6 @@
   <block id="41e6157e293d48add644e8ba996fcc97" category="summary">Active IQ Unified Manager は、Unified Managerで管理されるストレージワークロードに関連付けられた従来のQoSとアダプティブQoS（AQoS）の両方をサポートします。</block>
   <block id="431899ee248aac879e50f47978624616" category="doc">QoS を AQoS にアップグレードするためのワークロードの変更</block>
   <block id="62d7bb48aa685e4507c1ba5c67d1336a" category="paragraph">Active IQ Unified Manager は、Unified Managerで管理されるストレージワークロードに関連付けられた従来のQoSとアダプティブQoS（AQoS）の両方をサポートします。</block>
-  <block id="4be70c60e9789467261d3852e6b0a8ed" category="paragraph">ONTAP クラスタを9.1から9.3（ファイル共有の場合）および9.4（LUNの場合）にアップグレードする場合は、Unified Managerで管理される各ワークロードの従来のQoSをAQoSにアップグレードできます。詳細については、を参照してください</block>
-  <block id="aa5cf936cb4fb39ed1dee060575b0d06" category="inline-link">クラスタのアップグレード後にUnified Managerで管理されるワークロードを従来のQoSからAQoSにアップグレードする方法</block>
-  <block id="78d4a83897b99415ac8ad5c120bda57f" category="paragraph"><block ref="78d4a83897b99415ac8ad5c120bda57f" category="inline-link-rx"></block></block>
   <block id="30774c46e559810eb26e025188823780" category="summary">ストレージワークロードを変更するには、パラメータが不足している LUN またはファイル共有を更新するか、既存のパラメータを変更します。</block>
   <block id="0ba58d9003b19504ad38c6a2543c518a" category="doc">ストレージワークロードの変更</block>
   <block id="e018190fc95075d0a3a80781bdaebacc" category="paragraph">このワークフローは、 LUN とファイル共有のパフォーマンスサービスレベルを更新する例を示しています。</block>
@@ -7890,7 +7879,6 @@
   <block id="1fd2b463bf2d975db21df998b30ccb30" category="list-text">オペレーティングシステム：OSインストーラの「ソフトウェアの選択*」オプションから「GUI付きサーバ」ベース環境を使用してインストールされた、x86_64アーキテクチャに基づくRed Hat Enterprise Linuxバージョン7.xおよび8.xまたはCentOSバージョン7.x</block>
   <block id="480c2974456cfdab733c75db7656f977" category="list-text">RAM ： 12 GB 、 CPU ：合計 9572MHz</block>
   <block id="dd6993bbff983390c9accd8acbf1ed57" category="list-text">空きディスクスペース：100GBのディスクスペースがに表示されます<block ref="7e1f8730cbdb33df27f5c6a989e8b48a" prefix=" " category="inline-code"></block> ディレクトリ。ルートパーティション内で50GB。別途マウントする必要があります<block ref="68ab1268abb7e5f5688810968df97d6b" prefix=" " category="inline-code"></block> および<block ref="72ab0dd25459f7bfe6f0f90e0af20861" prefix=" " category="inline-code"></block> ディレクトリに移動する場合は、を確認します<block ref="68ab1268abb7e5f5688810968df97d6b" prefix=" " category="inline-code"></block> 15 GB、<block ref="72ab0dd25459f7bfe6f0f90e0af20861" prefix=" " category="inline-code"></block> には16GB、およびが搭載されています<block ref="d42b9c57d24cf5db3bd8d332dc35437f" prefix=" " category="inline-code"></block> に10GBの空きスペースがあります。</block>
-  <block id="45a9cb384aadcd627c1ec3e6b735c107" category="paragraph">システム要件の詳細および製品をセキュリティ保護されたサイトにインストールする方法については、を参照してください <block ref="670b6cec3e8bfe31f2fe710887cb5bd0" category="inline-link-macro-rx"></block> および <block ref="6b67f16fed93b756518b295cb43f355b" category="inline-link-macro-rx"></block>。</block>
   <block id="9af7f6db16dadbd7d8fe0d5b1ea6031d" category="list-text">をダウンロードします<block ref="12e8f7937693d1d817495a9f09c36f7e" prefix=" " category="inline-code"></block> インストールパッケージとコード署名証明書 <block ref="bdf46f9562b038d0163af0feba0b1dfa" prefix="(" category="inline-code"></block>）およびデジタル署名 <block ref="3328f02e81ee36344adceaeebdcfd4a4" prefix="(" category="inline-code"></block>）。</block>
   <block id="bb6790f4f8d82c3397bd5fda09daa3f7" category="list-text">インストールファイルをダウンロードしたディレクトリで、次のコマンドを実行します。</block>
   <block id="29afb17b6fd794a230bca904d06a0015" category="paragraph"><block ref="2d7480c0e2f854da0cfecd6c5e2ca4bb" prefix="" category="inline-code"></block></block>
@@ -8032,7 +8020,6 @@
   <block id="c613afdd3b01593cb5bd9a4d62704464" category="list-text">必要なサードパーティユーティリティがシステムに正しくインストールされるように、 Extra Packages for Enterprise Linux （ EPEL ）リポジトリを有効にする必要があります。</block>
   <block id="14a09cefd70d155f53608a10c0075f89" category="paragraph">システムで EPEL リポジトリが設定されていない場合は、リポジトリを手動でダウンロードして設定する必要があります。</block>
   <block id="cf9cf11bad5d3f5d77b4012abbf218e4" category="inline-link-macro">EPEL リポジトリを手動で設定します</block>
-  <block id="d49c4ee7635bee24ddd03e23aa963c9c" category="paragraph"><block ref="d49c4ee7635bee24ddd03e23aa963c9c" category="inline-link-macro-rx"></block></block>
   <block id="dae5be77dcd5a2751c52abb8c0cc9026" category="list-text">正しいバージョンの MySQL がインストールされていない場合は、システムに MySQL ソフトウェアが正しくインストールされるように MySQL リポジトリを有効にする必要があります。</block>
   <block id="9d4174201a3264f400c5be830729e691" category="paragraph">システムで MySQL リポジトリが設定されていない場合は、リポジトリを手動でダウンロードして設定する必要があります。</block>
   <block id="0bf58a07f9c4162d16eb1d2a403f0d41" category="inline-xref-macro">MySQL リポジトリを手動で設定する</block>
@@ -8483,8 +8470,6 @@
   <block id="12d49648274bb61cf34ecef5c6ec1acc" category="doc">Unified Manager REST API の使用</block>
   <block id="056ccccdf94ecae8a5c8847b4ee5facf" category="paragraph">Unified Manager REST APIについては、を参照してください <block ref="abc01d0b3cd0346cb85bca1d725dc979" category="inline-link-macro-rx"></block>。</block>
   <block id="93f88d6c3be8dc08239feb316ead84f9" category="paragraph">登録可能なEMSイベントの名前を確認するには、ONTAP クラスタシェルでを使用します<block ref="600519f6c6d0b7df8b905133fe79eb47" prefix=" " category="inline-code"></block> コマンド（ONTAP 9より前）または<block ref="83c19f62b32dae15ee31be017a321335" prefix=" " category="inline-code"></block> コマンド（ONTAP 9以降）。個 々 のEMSイベントを特定する詳しい手順については、ナレッジベースの回答 1072320を参照してください。</block>
-  <block id="b7ea02fe1dbdcd1a4d97e075ed656e5d" category="inline-link">KB 1072320 - ONTAP EMSイベントサブスクリプションの設定方法</block>
-  <block id="31217e322cc07a0593ddf09e0d4549b2" category="paragraph"><block ref="31217e322cc07a0593ddf09e0d4549b2" category="inline-link-rx"></block></block>
   <block id="dc1aaf8c08736de808959d661b2982d9" category="summary">Performance/SVMExplorerヘエシには、クラスタ内のすべてのStorage Virtual Machine（SVM）の詳細なパフォーマンス概要が表示されます。</block>
   <block id="96ae8904d957994459a2d0931e79c52a" category="doc">Storage VM / Performance Explorerページ</block>
   <block id="91ef4002ac703475b2df528f48f4fb01" category="paragraph">Performance/SVMExplorerヘエシには、クラスタ内のすべてのStorage Virtual Machine（SVM）の詳細なパフォーマンス概要が表示されます。</block>
@@ -8505,8 +8490,6 @@
   <block id="8bf16fa749903dd430c63d5f7b2bed5b" category="paragraph">フラッシュカードはオフライン（ドキュメント： FlashCardOffline ）</block>
   <block id="008dc4c7a8172caafb4a09a375139945" category="summary">RBACの設定に基づいて、のユーザページでユーザを追加し、それらのユーザにクラスタへのアクセスや監視を許可する適切なロールを割り当てることができます。</block>
   <block id="72a2d6c56d0c11a33538a8a7ffca2ca5" category="doc">ユーザアクセスのウィンドウとダイアログボックスの概要</block>
-  <block id="44fcc20d57d7a0f305afc033756027b0" category="inline-link">ナレッジベース回答 1087704</block>
-  <block id="d1aef3e682def1701a41348e49b69d86" category="paragraph">バックアップ用に割り当てた容量に対して増分バックアップファイルの数が大きすぎる場合は、を参照してください<block ref="482f88c4d1dd0b295f7aef84ae814882" category="inline-link-rx"></block> 新しいフルバックアップを定期的に作成して、古いフルバックアップとそのすべての子増分ファイルを置き換える方法について説明します。</block>
   <block id="f7fdb981561bfd068c5d12767608ebc8" category="summary">ユーザクォータイベントとグループクォータイベントは、ユーザクォータとユーザグループクォータの容量およびファイルとディスクの制限に関する情報を提供します。これにより、潜在的な問題を監視できます。影響範囲別にイベントがまとめられ、イベント名とトラップ名、影響レベル、ソースタイプ、および重大度が表示されます。</block>
   <block id="50067c41e9f1092e45320e5b167d9e46" category="doc">ユーザクォータイベントとグループクォータイベント</block>
   <block id="6ba841d8b866e4450d6de35728cb1d0c" category="paragraph">ユーザクォータまたはグループクォータのディスクスペースがソフトリミットを超過（ Document EvtUserOrGroupQuotaDiskSpaceSoftLimit超過 ）</block>
@@ -9920,7 +9903,6 @@
   <block id="c84860a9f6e5104c0f3572c47211cc21" category="list-text">監視対象外</block>
   <block id="025365c894e964be403cb5bd88d14798" category="list-text">VM の横にある下矢印をクリックすると、コンピューティング、ネットワーク、ストレージの各レイヤにあるコンポーネントのトポロジのサマリビューが表示されます。レイテンシの問題があるノードは強調表示されます。サマリビューには、コンポーネントのワーストレイテンシが表示されます。たとえば、 VM に複数の仮想ディスクがある場合、すべての仮想ディスクの中で最もレイテンシが高い仮想ディスクが表示されます。</block>
   <block id="b2852f4b6790249b1afa31156c609cca" category="list-text">一定期間にわたるデータストアのレイテンシとスループットを分析するには、データストアオブジェクトアイコンの上にある * Workload Analyzer * ボタンをクリックします。ワークロード分析ページに移動して、期間を選択し、データストアのパフォーマンスチャートを表示できます。Workload Analyzer の詳細については、 Workload Analyzer を使用したワークロードのトラブルシューティング _ を参照してください。</block>
-  <block id="678e3b6c8d79dadf59a1b550827b001a" category="paragraph"><block ref="678e3b6c8d79dadf59a1b550827b001a" category="inline-link-macro-rx"></block></block>
   <block id="c64cdbe5b3e71277fb72683ca1126415" category="section-title">トポロジの展開ビューの表示</block>
   <block id="0cb243721275242d43e08ae33d6bbcb5" category="paragraph">VM のトポロジの展開ビューでは、各コンポーネントにドリルダウンして個別に確認することができます。</block>
   <block id="208418858150638b18e724bc3b4cb874" category="list-text">トポロジのサマリビューで、 [* トポロジの展開 *] をクリックします。各コンポーネントの詳細なトポロジが個別に表示され、各オブジェクトのレイテンシを確認できます。データストアまたは VMDK に複数のノードが含まれているカテゴリでは、レイテンシが最も低いノードが赤で強調表示されます。</block>
@@ -11126,7 +11108,6 @@
   <block id="7b2ca92a0e10c48d7631c9609a6d7067" category="paragraph">レイテンシとアクティビティのグラフにカーソルを合わせると、上位のワークロードの名前が表示されます。グラフの右側にあるワークロードのタイプメニューをクリックすると、イベントでのワークロードのロールに基づいてワークロードをソートできます。これには、 _Shark 、 _Bully 、 _Victim の各ワークロードのレイテンシと競合しているクラスタコンポーネントでの使用状況の詳細が表示されます。実際の値と想定値を比較して、ワークロードがレイテンシまたは使用量の想定範囲を外れたタイミングを確認できます。を参照してください <block ref="9f2938dff180af01fa93d55b4de76b26" category="inline-xref-macro-rx"></block>。</block>
   <block id="db69501da9f35d5723a50c4a668d5bb1" category="paragraph">レイテンシのピーク偏差でソートする場合は、システム定義のワークロードがテーブルに表示されません。これは、レイテンシがユーザ定義のワークロードにのみ適用されるためです。レイテンシの値が小さいワークロードはこのテーブルに表示されません。</block>
   <block id="e5ee071b3b431489cbbdfadb0adb789c" category="inline-link-macro">イベントとは</block>
-  <block id="9cd94be50f953ca5b3d67273e067ae6c" category="paragraph">動的なパフォーマンスしきい値の詳細については、を参照してください <block ref="0535bb9dbc4ba4c8dec14b625dcb4a64" category="inline-link-macro-rx"></block>。Unified Managerでワークロードをランク付けしてソート順序を決定する方法については、を参照してください <block ref="588858b1cc06423e48caf8172f8d9578" category="inline-xref-macro-rx"></block>。</block>
   <block id="7427acf420f5207b8ae1131352d073c7" category="paragraph">グラフ内のデータには、イベントが最後に分析されるまでの 24 時間のパフォーマンス統計が示されます。各ワークロードの実際の値と想定値は、ワークロードがイベントに関連した時刻に基づいています。たとえば、イベントの検出後にワークロードがイベントに関連した可能性があるため、そのパフォーマンス統計がイベント検出時の値と一致しないことがあります。デフォルトでは、レイテンシのピーク（最大）偏差でワークロードがソートされます。</block>
   <block id="2545bfbff2b57fe22210b418aa7b0bde" category="paragraph">Unified Manager では 5 分ごとのパフォーマンスとイベントの履歴データが最大 30 日分保持されるため、 30 日前より古いイベントの場合、パフォーマンスデータは表示されません。</block>
   <block id="a1fb5903985467b316b77afec2a094fa" category="list-text">* ワークロードソート列 *</block>
@@ -11134,7 +11115,6 @@
   <block id="ad66c9e4c4aac43f31d0399bd4bda649" category="paragraph">前回の分析中の、ワークロードのレイテンシに対するイベントの影響が表示されます。</block>
   <block id="733e7290b02f4bcfc4024e1c7717761e" category="list-text">* コンポーネント使用状況列 *</block>
   <block id="b0a053673931b228f989352c64b39510" category="inline-link-macro">ワークロードのパフォーマンスの測定値</block>
-  <block id="7217fed83eafaf5cd5c315f3fae6bdc0" category="paragraph">競合状態のクラスタコンポーネントのワークロードの使用量に関する詳細が表示されます。グラフでは、実際の使用量は青い線で表示されます。検出時刻から最後に分析された時刻までのイベント期間が赤いバーで強調表示されます。詳細については、を参照してください <block ref="441c1f0640ee23e8a572ef20ebbdc844" category="inline-link-macro-rx"></block>。</block>
   <block id="6b3abe7014911eaecd1bb9f29044ebe9" category="paragraph">ネットワークコンポーネントの場合は、クラスタ以外のアクティビティに基づいてネットワークパフォーマンス統計が作成されるため、この列は表示されません。</block>
   <block id="c1488620d5b7412ffad628b521ecbba0" category="list-text">* コンポーネント使用率 *</block>
   <block id="63c1fe7ae0c47abf05be33ca259c4db4" category="paragraph">QoS ポリシーグループコンポーネントのネットワーク処理、データ処理、および集約コンポーネントの使用率の履歴、またはアクティビティの履歴をパーセント単位で表示します。ネットワークコンポーネントまたはインターコネクトコンポーネントについては、このグラフは表示されません。統計にカーソルを合わせると、特定の時点における使用状況を表示できます。</block>
@@ -11603,7 +11583,6 @@
   <block id="218fd42c69de99639a37d9448b9acdf3" category="paragraph">以下のパネルの一部は、構成に応じてページに表示されない場合があります。</block>
   <block id="7159b8d16e082bb281a900b08b5b3c53" category="list-text">* 管理操作パネル *</block>
   <block id="5c30d4e8e903f03c3436b4550c821396" category="paragraph">問題によっては、 Unified Manager の詳細な診断によって 1 つの解決策が提供されることがあります。解決策がある場合は、このパネルに*固定*ボタンで表示されます。このような問題は Unified Manager から直接解決できます。 ONTAP System Manager や ONTAP CLI を使用する必要はありません。</block>
-  <block id="44da280fca517a69ac2e7a77046f5abe" category="paragraph">を参照してください <block ref="28b6b8afce069695e6ee578108372193" category="inline-link-macro-rx"></block> を参照してください。</block>
   <block id="fefbd613edf4fa6e465728bd4899ff3c" category="list-text">* 容量パネル *</block>
   <block id="7e39569cdb06b9244de42ec3bf906a0c" category="paragraph">すべてのクラスタを表示している場合、このパネルには、各クラスタの合計物理容量と使用済み論理容量、ディスクがフルになるまでの予測日数、およびONTAP のStorage Efficiency設定に基づくデータ削減率が表示されます。また、設定されているクラウド階層の使用済み容量も表示されます。棒グラフをクリックすると、そのクラスタのアグリゲートのインベントリページが表示されます。「フルまでの日数」というテキストをクリックすると容量の残り日数が最も少ないアグリゲートを示すメッセージが表示され、そのアグリゲート名をクリックすると詳細が表示されます。</block>
   <block id="e3a465be6f734d81ff88e9bfbe1895e1" category="paragraph">単一のクラスタを表示している場合、このパネルには、データアグリゲートの合計物理容量と使用済み論理容量がローカル階層とクラウド階層のそれぞれのディスクタイプでソートされて表示されます。ディスクタイプの棒グラフをクリックすると、そのディスクタイプを使用しているボリュームのボリュームインベントリページが表示されます。</block>
@@ -12424,7 +12403,6 @@
   <block id="09d454f0bf432593d99fbfd84c9f9293" category="sidebar">設定タスクと管理タスクを実行</block>
   <block id="8b00815fc5298212e3dc28a279ed4a10" category="sidebar">カスタムレポートを生成</block>
   <block id="5fc23f7e4ef2f5b01f7034e6f2ceb340" category="sidebar">VMware vSphere システムに Unified Manager をインストールします</block>
-  <block id="13bd7c1485a8096980a7a59aa3af154f" category="sidebar">Active IQ Unified Manager 製品ドキュメント</block>
   <block id="32d8b1bb1bdc5067bfbde495253b3469" category="sidebar">クラスタヘルスを監視および管理する</block>
   <block id="0cdc2e43fd617d44b61e3c28d05ef9e7" category="sidebar">健常性しきい値の管理（クラスタ健常性）</block>
   <block id="a4d86585f88de3caa783eefc33f81448" category="sidebar">グローバル健全性しきい値の設定（クラスタの健常性）</block>
@@ -12476,5 +12454,21 @@
   <block id="5fdeb821d7d24c5498fe42bdf6a8e55d" category="sidebar"><strong>[修正]</strong> ボタンが表示されたら、どのようなオプションがありますか</block>
   <block id="19966a54541b838c85278932c36c8122" category="sidebar">Unified Managerのホスト名の変更（管理と監視）</block>
   <block id="433a3de67ad10a966d2b8b61c37210d2" category="sidebar">Unified Managerデータベースディレクトリへのディスクスペースの追加（管理および監視）</block>
-  <block id="6ab85e747e0c76cd7c95b5eb2dd03018" category="sidebar">マニュアルの更新について</block>
+  <block id="9445df612c310acacfd941dd0eac8823" category="paragraph">システム要件の詳細については、を参照してください <block ref="a6cf2d64b945a6e5bc413fbb8bde8342" category="inline-link-macro-rx"></block> および <block ref="6b67f16fed93b756518b295cb43f355b" category="inline-link-macro-rx"></block>。</block>
+  <block id="5fca475c024edff744644a825e3d9a88" category="paragraph">Unified Manager をインストールするには、 Microsoft .NET 4.5.2 以降のバージョンがインストールされている必要があります。インストールプロセスの一環として、 Unified Manager は必要に応じて他のサードパーティパッケージをインストールします。依存するソフトウェアパッケージの詳細については、を参照してください <block ref="fdccd14fe3a6b01226e28b1c8d5903a3" category="inline-link-macro-rx"></block>。</block>
+  <block id="386e01dc058ac49b633d3ab1bdadb2be" category="paragraph"><block ref="386e01dc058ac49b633d3ab1bdadb2be" category="inline-link-macro-rx"></block></block>
+  <block id="78b6e4ed950dc395bd3f6faeee305a34" category="paragraph">動的なパフォーマンスしきい値の詳細については、を参照してください <block ref="4fbbcfc459c3f0a70cb75c69ab9e6f9c" category="inline-link-macro-rx"></block>。Unified Managerでワークロードをランク付けしてソート順序を決定する方法については、を参照してください <block ref="588858b1cc06423e48caf8172f8d9578" category="inline-xref-macro-rx"></block>。</block>
+  <block id="76d5b0d54d461c3c8448cabff04a2e43" category="paragraph">競合状態のクラスタコンポーネントのワークロードの使用量に関する詳細が表示されます。グラフでは、実際の使用量は青い線で表示されます。検出時刻から最後に分析された時刻までのイベント期間が赤いバーで強調表示されます。詳細については、を参照してください <block ref="25a23eaa5e8a555010bba03b1514776e" category="inline-link-macro-rx"></block>。</block>
+  <block id="1acf808d5167e8d3738f46ff5b4e301e" category="inline-link">Active IQ Unified Manager で ONTAP EMS イベントサブスクリプションからアラートを設定して受信する方法</block>
+  <block id="9766ce0b025b0e53ab341f929c8809c9" category="paragraph"><block ref="9766ce0b025b0e53ab341f929c8809c9" category="inline-link-rx"></block></block>
+  <block id="f772a3f7d605caa5bd70b36946fa44ba" category="paragraph">を参照してください <block ref="d6b5a2a5c0e40c3102c9b2e22cb0b3c7" category="inline-link-macro-rx"></block> 表示されるクラスタコンポーネントの概要の場合。</block>
+  <block id="c24aa7241469829aa1f0aa125be72ed7" category="paragraph">を参照してください <block ref="d6b5a2a5c0e40c3102c9b2e22cb0b3c7" category="inline-link-macro-rx"></block> ここに表示されている構成要素の概要 の場合。</block>
+  <block id="24f0bc4370d5b3d0cc51dca9f18dd3cf" category="paragraph">増分バックアップファイルの数がバックアップ用に割り当てた容量に対して大きすぎる場合は、新しいフルバックアップを定期的に作成して、古いフルバックアップとそのすべての子増分ファイルを置き換えることができます。</block>
+  <block id="94b9b9bf336f6150715e70e5cfa796db" category="paragraph">を参照してください <block ref="9e8206a26caab6e01b9c259e68be62a2" category="inline-link-macro-rx"></block> を参照してください。</block>
+  <block id="26b4fa3b049aebc28e928ab0f5301a79" category="paragraph">ONTAP クラスタを9.1から9.3（ファイル共有の場合）および9.4（LUNの場合）にアップグレードする場合は、Unified Managerで管理される各ワークロードの従来のQoSをAQoSにアップグレードできます。</block>
+  <block id="021459db8c0de937bd166d39a346138c" category="paragraph"><block ref="021459db8c0de937bd166d39a346138c" category="inline-link-macro-rx"></block></block>
+  <block id="64b2c0c968fd7233752d70038ec0414f" category="paragraph">システム要件の詳細および製品をセキュリティ保護されたサイトにインストールする方法については、を参照してください <block ref="a6cf2d64b945a6e5bc413fbb8bde8342" category="inline-link-macro-rx"></block> および <block ref="6b67f16fed93b756518b295cb43f355b" category="inline-link-macro-rx"></block>。</block>
+  <block id="104aa31777a28083b01bd42d1604f40d" category="list-text">原因フィールドのエラーメッセージを確認し、 Suggested Remedial Actions の下の提案をクリックして、考えられる修正方法の説明を確認します。 <block ref="cfa97ecee8a019da26e072cfc32b4d01" category="inline-link-macro-rx"></block></block>
+  <block id="61e9505d43407b696822b3696a0f6e18" category="list-text"><block ref="61e9505d43407b696822b3696a0f6e18" category="inline-link-macro-rx"></block></block>
+  <block id="1a97fa8225fab34ca587c5011859bf8a" category="list-text"><block ref="4e38818523eff37839ae6350cd7b53b0" category="inline-link-macro-rx"></block>。</block>
 </blocks>

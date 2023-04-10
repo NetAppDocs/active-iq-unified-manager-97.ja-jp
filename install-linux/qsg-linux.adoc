@@ -17,7 +17,7 @@ summary: Linux プラットフォームでの Unified Manager のクイックス
 * 空きディスクスペース：100GBのディスクスペースがに表示されます `/opt/netapp/data` ディレクトリ。ルートパーティション内で50GB。別途マウントする必要があります `/opt` および `/var/log` ディレクトリに移動する場合は、を確認します `/opt` 15 GB、 `/var/log` には16GB、およびが搭載されています `/tmp` に10GBの空きスペースがあります。
 
 
-システム要件の詳細および製品をセキュリティ保護されたサイトにインストールする方法については、を参照してください link:./install-linux/concept-requirements-for-installing-unified-manager.html["Unified Manager をインストールするための要件"] および link:http://mysupport.netapp.com/matrix["互換性マトリックス"]。
+システム要件の詳細および製品をセキュリティ保護されたサイトにインストールする方法については、を参照してください link:concept-requirements-for-installing-unified-manager.html["Unified Manager をインストールするための要件"] および link:http://mysupport.netapp.com/matrix["互換性マトリックス"]。
 
 
 

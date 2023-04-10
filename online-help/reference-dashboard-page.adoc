@@ -27,7 +27,7 @@ summary: Dashboard ページには、監視しているクラスタの容量、�
 問題によっては、 Unified Manager の詳細な診断によって 1 つの解決策が提供されることがあります。解決策がある場合は、このパネルに*固定*ボタンで表示されます。このような問題は Unified Manager から直接解決できます。 ONTAP System Manager や ONTAP CLI を使用する必要はありません。
 
 +
-を参照してください link:concept-fixing-ontap-issues-directly-from-unified-manager.adoc["ONTAP の問題を Unified Manager から直接修正"] を参照してください。
+を参照してください link:concept-fixing-ontap-issues-directly-from-unified-manager.html["ONTAP の問題を Unified Manager から直接修正"] を参照してください。
 
 * * 容量パネル *
 +

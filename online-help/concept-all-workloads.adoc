@@ -42,7 +42,7 @@ Unified Managerは、ストレージワークロードでI/O処理が開始さ�
 
 また、このページではワークロードのパフォーマンスの詳細を確認することもできます。ワークロードの IOPS 、容量、レイテンシに関する詳細情報を表示するには、「 * 列の選択 / 順序」ボタンをクリックし、表示する列を選択します。パフォーマンスビューの列にはワークロードの平均 IOPS とピーク IOPS が表示され、ワークロードアナライザのアイコンをクリックすると詳細な IOPS 分析を確認できます。IOPS 分析ポップアップの * ワークロードの分析ボタンをクリックすると、ワークロード分析ページが開き、期間を選択して、選択したワークロードのレイテンシ、スループット、容量のトレンドを確認できます。Workload Analyzer の詳細については、 Workload Analyzer を使用したワークロードのトラブルシューティング _ を参照してください
 
-link:concept-troubleshooting-workloads-using-the-workload-analyzer.adoc["Workload Analyzer を使用したワークロードのトラブルシューティング"]
+link:concept-troubleshooting-workloads-using-the-workload-analyzer.html["Workload Analyzer を使用したワークロードのトラブルシューティング"]
 
 
 

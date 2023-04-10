@@ -13,6 +13,4 @@ summary: Active IQ Unified Manager は、Unified Managerで管理されるスト
 [role="lead"]
 Active IQ Unified Manager は、Unified Managerで管理されるストレージワークロードに関連付けられた従来のQoSとアダプティブQoS（AQoS）の両方をサポートします。
 
-ONTAP クラスタを9.1から9.3（ファイル共有の場合）および9.4（LUNの場合）にアップグレードする場合は、Unified Managerで管理される各ワークロードの従来のQoSをAQoSにアップグレードできます。詳細については、を参照してください
-
-https://kb.netapp.com/app/answers/answer_view/a_id/1087379["クラスタのアップグレード後にUnified Managerで管理されるワークロードを従来のQoSからAQoSにアップグレードする方法"]
+ONTAP クラスタを9.1から9.3（ファイル共有の場合）および9.4（LUNの場合）にアップグレードする場合は、Unified Managerで管理される各ワークロードの従来のQoSをAQoSにアップグレードできます。
