@@ -29,7 +29,7 @@ image::../media/mcc-dr-groups-8-node.gif[MCC DR グループ 8 ノード]
 
 次の図は、 4 ノード MetroCluster 構成におけるノードの編成を示しています。
 
-image::../media/mcc-dr-groups-4-node.gif[MCC DR グループ 4 ノード]
+image::../media/mcc-dr-groups-4-node.gif[MCC DRグループ4ノード]
 
 
 

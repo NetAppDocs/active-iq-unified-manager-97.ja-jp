@@ -30,7 +30,9 @@ summary: VMware vSphere プラットフォームの Unified Manager のクイッ
 
 . をダウンロードします `.tar` ルート証明書を含むファイル `README` ファイル、および `OVA` ファイル。
 . vSphere Client からアクセス可能なローカルまたはネットワークのディレクトリにファイルを保存します。
-. をダウンロードしたディレクトリ `.tar` ファイルで、を入力します `tar -xvzf ActiveIQUnifiedManager-<version>.tar.gz` コマンドを実行します+必要なを押します `OVA` ファイル、ルート証明書、および `README` ファイルがターゲットディレクトリに解凍されます。
+. をダウンロードしたディレクトリ `.tar` ファイルで、を入力します `tar -xvzf ActiveIQUnifiedManager-<version>.tar.gz` コマンドを実行します
+  [+]
+が必要です `OVA` ファイル、ルート証明書、および `README` ファイルがターゲットディレクトリに解凍されます。
 
 
 

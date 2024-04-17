@@ -24,7 +24,7 @@ Unified Manager REST API では、 ONTAP クラスタである Unified Manager �
 
 [cols="1a,1a,1a"]
 |===
-| HTTP 動詞 | パス（ URL ） | 説明 
+| HTTP動詞 | パス（ URL ） | 説明 
 
 
  a| 

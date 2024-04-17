@@ -238,7 +238,7 @@ RAID構成タイプ：
 ** RAID 0：すべてのRAIDグループのタイプがRAID 0です。
 ** RAID 4：すべてのRAIDグループのタイプがRAID 4です。
 ** RAID-DP ：すべての RAID グループのタイプが RAID-DP です。
-** RAID-TEC ：すべての RAID グループのタイプが RAID-TEC です。
+** raid：すべてのRAID-TECグループのタイプがRAID-TECです。
 ** Mixed RAID：アグリゲートに異なるRAIDタイプ（RAID 0、RAID 4、RAID-DP、RAID-TEC ）のRAIDグループが含まれています。
 
 

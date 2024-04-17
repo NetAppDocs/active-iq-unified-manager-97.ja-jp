@@ -66,7 +66,7 @@ SFTP を使用する
 Password: <maintenance_user_password>
 support_bundle_20160216_145359.7z   100%  119MB  11.9MB/s   00:10
 ----
-次の例では、 SFTP を使用してサポートバンドルを取得します。
+次の例では、SFTPを使用してサポートバンドルを取得しています。
 
 [listing]
 ----

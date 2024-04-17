@@ -28,7 +28,7 @@ cURL コマンド、例、要求、および API への応答は、 Swagger API 
 ====
 [cols="1a,1a,4a"]
 |===
-| HTTP 動詞 | パス | 説明 
+| HTTP動詞 | パス | 説明 
 
 
  a| 

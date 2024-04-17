@@ -15,7 +15,7 @@ Performance/LUNInformationヘエシを使用すると、LUNの物理属性と論
 
 
 
-== LUN 属性
+== LUNの属性
 
 * *WWN*
 +

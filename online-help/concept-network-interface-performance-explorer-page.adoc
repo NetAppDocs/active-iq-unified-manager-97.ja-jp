@@ -26,7 +26,7 @@ Performance/NetworkInterface Explorerヘエシを使用すると、一定期間�
 Performance/Network Interface Explorerヘエシヲシツハイスヘノアクセス
 
 * しきい値に関連する問題とその詳細を表示します
-* LIFのパフォーマンスデータを追跡して比較する
+* LIFのパフォーマンスデータの追跡と比較
 * しきい値に関連する問題の調査とトラブルシューティング
 * パフォーマンスの問題の調査とトラブルシューティング
 

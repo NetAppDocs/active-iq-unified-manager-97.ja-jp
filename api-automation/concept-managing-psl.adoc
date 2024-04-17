@@ -21,7 +21,7 @@ Active IQ Unified Manager でストレージプロバイダ API を使用して�
 
 [cols="1a,1a,1a"]
 |===
-| カテゴリ | HTTP 動詞 | パス 
+| カテゴリ | HTTP動詞 | パス 
 
 
  a| 
@@ -42,7 +42,7 @@ Active IQ Unified Manager でストレージプロバイダ API を使用して�
 
 [cols="1a,1a,1a"]
 |===
-| カテゴリ | HTTP 動詞 | パス 
+| カテゴリ | HTTP動詞 | パス 
 
 
  a| 
@@ -61,7 +61,7 @@ Active IQ Unified Manager でストレージプロバイダ API を使用して�
 
 [cols="1a,1a,1a"]
 |===
-| カテゴリ | HTTP 動詞 | パス 
+| カテゴリ | HTTP動詞 | パス 
 
 
  a| 
@@ -80,7 +80,7 @@ Active IQ Unified Manager でストレージプロバイダ API を使用して�
 
 [cols="1a,1a,1a"]
 |===
-| カテゴリ | HTTP 動詞 | パス 
+| カテゴリ | HTTP動詞 | パス 
 
 
  a| 
@@ -99,7 +99,7 @@ Active IQ Unified Manager でストレージプロバイダ API を使用して�
 
 [cols="1a,1a,1a"]
 |===
-| カテゴリ | HTTP 動詞 | パス 
+| カテゴリ | HTTP動詞 | パス 
 
 
  a| 

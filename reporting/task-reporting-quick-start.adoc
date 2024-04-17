@@ -51,7 +51,8 @@ image::../media/show-hide-2.gif[非表示2を表示します]
 +
 ** ディスクタイプにはFabricPool が含まれます
 ** クラウドに関する推奨事項に階層が含まれて
-** コールドデータが 10GB を超えていますimage:../media/filter-cold-data.gif[""]
+** コールドデータが 10GB を超えています
+image:../media/filter-cold-data.gif[""]
 
 
 +
@@ -68,7 +69,7 @@ Microsoft Excel（CSV）やAdobe Acrobat（PDF）などのインストールさ�
 
 . インベントリページの * スケジュール済みレポート * ボタンをクリックします。オブジェクトに関連するスケジュール済みレポート（この場合はボリューム）がすべてリストに表示されます。
 +
-image::../media/scheduled-reports-3.gif[スケジュール済みレポート 3.]
+image::../media/scheduled-reports-3.gif[スケジュール済みレポート3]
 
 . [ * スケジュールの追加 * ] をクリックして、新しいレポートのスケジュール特性を定義できるように、 [ レポートスケジュール * ] ページに新しい行を追加します。
 . レポートの名前を入力し、他のレポートフィールドに情報を入力して、チェックマーク（）をクリックしますimage:../media/blue-check.gif[""]）をクリックします。
@@ -82,7 +83,7 @@ CSV 形式のサンプルレポートを次に示します。
 image::../media/csv-sample-report.gif[CSV サンプルレポート]
 
 +
-PDF 形式のサンプルレポートを次に示します。
+PDF形式のサンプルレポートを次に示します。
 
 +
 image::../media/pdf-sample-report.gif[PDF サンプルレポート]

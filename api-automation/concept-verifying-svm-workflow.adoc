@@ -22,7 +22,7 @@ summary: ファイル共有またはLUNをプロビジョニングする前に�
 +
 [cols="1a,1a,1a"]
 |===
-| カテゴリ | HTTP 動詞 | パス 
+| カテゴリ | HTTP動詞 | パス 
 
 
  a| 
@@ -47,7 +47,7 @@ curl -X GET "https://<hostname>/api/datacenter/svm/svms" -H "accept: application
 +
 [cols="1a,1a,1a"]
 |===
-| カテゴリ | HTTP 動詞 | パス 
+| カテゴリ | HTTP動詞 | パス 
 
 
  a| 
@@ -81,7 +81,7 @@ SVM を作成する際には、 LUN およびファイル共有のプロビジ�
 +
 [cols="1a,1a,1a"]
 |===
-| カテゴリ | HTTP 動詞 | パス 
+| カテゴリ | HTTP動詞 | パス 
 
 
  a| 
@@ -124,13 +124,13 @@ curl -X POST "https://<hostname>/api/datacenter/svm/svms" -H "accept: applicatio
 \"state\": \"running\", \"subtype\": \"default\"}"
 ----
 +
-JSON 出力にジョブオブジェクトキーが表示され、作成した SVM の検証に使用できます。
+JSON出力にジョブオブジェクトキーが表示され、作成したSVMの検証に使用できます。
 
 . ジョブオブジェクトキーを使用して照会し、 SVM の作成を確認します。SVM が正常に作成されると、 SVM キーが応答に返されます。
 +
 [cols="1a,1a,1a"]
 |===
-| カテゴリ | HTTP 動詞 | パス 
+| カテゴリ | HTTP動詞 | パス 
 
 
  a| 

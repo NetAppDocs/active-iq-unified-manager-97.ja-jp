@@ -155,9 +155,9 @@ Active Directory が設定されているかどうかを示します。Active Di
 
 
  a| 
-LDAP ユーザ
+LDAPユーザ
  a| 
-LDAP が設定されているかどうかを示します。Active Directory と LDAP は、ローカルユーザよりもクラスタを管理するユーザに対して推奨される認証メカニズムです。
+LDAPが設定されているかどうかを示します。Active Directory と LDAP は、ローカルユーザよりもクラスタを管理するユーザに対して推奨される認証メカニズムです。
  a| 
 推奨事項なし
  a| 

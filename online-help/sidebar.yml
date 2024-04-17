@@ -161,7 +161,7 @@ entries:
       url: "/online-help/reference-inodes-events.html"
     - title: 論理インターフェイス（LIF）イベント
       url: "/online-help/reference-logical-interface-events.html"
-    - title: LUN イベント
+    - title: LUNイヘント
       url: "/online-help/reference-lun-events.html"
     - title: 管理ステーションイベント
       url: "/online-help/reference-management-station-events.html"

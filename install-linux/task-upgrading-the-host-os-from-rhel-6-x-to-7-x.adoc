@@ -40,7 +40,7 @@ xref:concept-installing-unified-manager-on-rhel-or-centos.adoc[Red Hat Enterpris
 
 . Red Hat Enterprise Linux 6.xシステムで、Web UIのの管理メニューで、Unified Managerのバックアップを作成し、バックアップファイルをコピーします (`.7z` ファイル）とデータベースリポジトリディレクトリの内容 (`/database-dumps-repo` サブディレクトリ）を外部の場所に追加します。
 . Red Hat Enterprise Linux 6.xシステムで、Unified Managerをシャットダウンします。
-. Red Hat Enterprise Linux 7.xシステムで、バックアップファイルをコピーします (`.7z` ファイル）を外部の場所からにコピーします `/opt/netapp/data/ocum-backup/` およびにデータベースリポジトリファイルを追加します `/database-dumps-repo` のサブディレクトリ `/ocum-backup` ディレクトリ。
+. Red Hat Enterprise Linux 7.xシステムで、バックアップファイルをコピーします。 (`.7z` ファイル）を外部の場所からにコピーします `/opt/netapp/data/ocum-backup/` およびにデータベースリポジトリファイルを追加します `/database-dumps-repo` のサブディレクトリ `/ocum-backup` ディレクトリ。
 . 次のコマンドを入力して、バックアップファイルから Unified Manager データベースをリストアします。``um backup restore -f /opt/netapp/data/ocum-backup/<backup_file_name>``
 . Web ブラウザに IP アドレスまたは URL を入力して Unified Manager Web UI を起動し、システムにログインします。
 

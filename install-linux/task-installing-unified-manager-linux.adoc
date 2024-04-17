@@ -55,7 +55,7 @@ OpenJDKバージョン11.0.7
 
 
  a| 
-MySQL 8.0.20 Community Editionの場合のみ使用できます
+MySQL 8.0.20 Community Edition
  a| 
 `rpm -qa | grep -i mysql`
 
@@ -67,7 +67,7 @@ p7zip 16.02
 `rpm -qa | grep p7zip`
 
 |===
-. MySQL 8.0.20 Community Editionより前のバージョンのMySQLがインストールされている場合は、次のコマンドを入力してアンインストールします。``rpm -e <mysql_package_name>``
+. インストールされているMySQLのバージョンがMySQL 8.0.20 Community Editionより前の場合は、次のコマンドを入力してアンインストールします。``rpm -e <mysql_package_name>``
 +
 依存関係のエラーが表示された場合は、を追加する必要があります `--nodeps` コンポーネントをアンインストールするオプション。
 

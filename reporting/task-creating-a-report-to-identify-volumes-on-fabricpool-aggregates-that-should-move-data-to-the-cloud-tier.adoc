@@ -42,7 +42,8 @@ summary: 現在 FabricPool アグリゲートにあるボリューム、クラ�
 +
 ** ディスクタイプに FabricPool が含まれています
 ** クラウドに関する推奨事項に階層が含まれて
-** コールドデータが 10GB を超えていますimage:../media/filter-cold-data.gif[""]
+** コールドデータが 10GB を超えています
+image:../media/filter-cold-data.gif[""]
 
 
 . コールドデータ*列の上部をクリックして、コールドデータが最も多いボリュームをビューの上部に表示します。

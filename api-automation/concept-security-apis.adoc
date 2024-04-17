@@ -22,7 +22,7 @@ summary: セキュリティカテゴリの API を使用して、 Active IQ Unif
 
 [cols="1a,1a,1a"]
 |===
-| HTTP 動詞 | パス | 説明 
+| HTTP動詞 | パス | 説明 
 
 
  a| 

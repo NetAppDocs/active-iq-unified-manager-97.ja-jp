@@ -27,7 +27,7 @@ image::../media/space-utilization.gif[スペース使用量]
 +
 [cols="1a,1a,1a"]
 |===
-| カテゴリ | HTTP 動詞 | パス 
+| カテゴリ | HTTP動詞 | パス 
 
 
  a| 
@@ -42,7 +42,7 @@ image::../media/space-utilization.gif[スペース使用量]
 +
 [cols="1a,1a,1a"]
 |===
-| カテゴリ | HTTP 動詞 | パス 
+| カテゴリ | HTTP動詞 | パス 
 
 
  a| 
@@ -58,7 +58,7 @@ image::../media/space-utilization.gif[スペース使用量]
 +
 [cols="1a,1a,1a"]
 |===
-| カテゴリ | HTTP 動詞 | パス 
+| カテゴリ | HTTP動詞 | パス 
 
 
  a| 

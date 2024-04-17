@@ -35,7 +35,7 @@ image::../media/message-non-scehduled-reports.png[メッセージレポートが
 
 . *View* 名をクリックして、レポートの生成に使用されている SQL クエリを表示します。
 +
-image::../media/importedreport1.png[importedreport1]
+image::../media/importedreport1.png[インポート1]
 
 . [ 詳細 ] アイコンをクリックします image:../media/more-icon.gif[""]をクリックし、 * Edit * をクリックしてレポートスケジュールの詳細を定義し、レポートを保存します。
 +

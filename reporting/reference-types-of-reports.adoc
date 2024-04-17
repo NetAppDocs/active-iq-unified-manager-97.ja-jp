@@ -49,7 +49,7 @@ Storage VMs
 
 SMB/CIFS 共有
 
-NFS 共有
+NFSキヨウユウ
 
 
 

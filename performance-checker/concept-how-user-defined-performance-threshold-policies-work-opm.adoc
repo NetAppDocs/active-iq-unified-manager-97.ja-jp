@@ -48,14 +48,14 @@ image::../media/opm2-threshold-breach.gif[opm2 のしきい値違反です]
  a| 
 レイテンシ
  a| 
-10 ミリ秒
+10ミリ秒
 
 
 
  a| 
-20 ミリ秒
+20ミリ秒
  a| 
-15 分
+15分
  a| 
 アグリゲート
  a| 
@@ -70,7 +70,7 @@ image::../media/opm2-threshold-breach.gif[opm2 のしきい値違反です]
 
 
  a| 
-15 ミリ秒
+15ミリ秒
  a| 
 50%
  a| 
@@ -79,7 +79,7 @@ image::../media/opm2-threshold-breach.gif[opm2 のしきい値違反です]
 
 
  a| 
-15 ミリ秒
+15ミリ秒
  a| 
 75%
  a| 
@@ -88,7 +88,7 @@ image::../media/opm2-threshold-breach.gif[opm2 のしきい値違反です]
 
 
  a| 
-25 ミリ秒
+25ミリ秒
  a| 
 75%
  a| 
@@ -97,7 +97,7 @@ image::../media/opm2-threshold-breach.gif[opm2 のしきい値違反です]
 
 
  a| 
-25 ミリ秒
+25ミリ秒
  a| 
 90%
  a| 

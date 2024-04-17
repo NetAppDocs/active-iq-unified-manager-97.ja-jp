@@ -94,7 +94,7 @@ Active IQ Unified Manager REST API には、問題 HTTP 要求を実行できる
 ----
 +
 ** `IP address/hostname` は、APIサーバのIPアドレスまたは完全修飾ドメイン名（FQDN）です。
-** ポート 443
+** ポート443
 +
 443 は、デフォルトの HTTPS ポートです。必要に応じて、 HTTPS ポートをカスタマイズできます。
 

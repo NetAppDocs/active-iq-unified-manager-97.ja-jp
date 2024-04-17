@@ -21,7 +21,7 @@ SVM の Active Directory マッピングの設定の詳細を表示するには�
 
 [cols="1a,1a,1a"]
 |===
-| カテゴリ | HTTP 動詞 | パス 
+| カテゴリ | HTTP動詞 | パス 
 
 
  a| 
@@ -42,7 +42,7 @@ SVM に Active Directory マッピングを作成するには、次のメソッ�
 
 [cols="1a,1a,1a"]
 |===
-| カテゴリ | HTTP 動詞 | パス 
+| カテゴリ | HTTP動詞 | パス 
 
 
  a| 

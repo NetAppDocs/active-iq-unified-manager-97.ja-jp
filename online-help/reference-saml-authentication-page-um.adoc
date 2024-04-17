@@ -47,7 +47,7 @@ Unified Manager サーバから IdP の URL にアクセスできる場合は、
 +
 インストール時に定義された Unified Manager ホストシステムの FQDN 。この値は必要に応じて変更できます。
 
-* * ホスト URI *
+* *ホストURI *
 +
 IdP から Unified Manager ホストシステムにアクセスするための URI 。
 

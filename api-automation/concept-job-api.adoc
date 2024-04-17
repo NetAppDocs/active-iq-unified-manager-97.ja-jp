@@ -23,7 +23,7 @@ Active IQ Unified Manager では、リソースの追加や変更などの処理
 
 [cols="1a,1a,1a"]
 |===
-| カテゴリ | HTTP 動詞 | パス 
+| カテゴリ | HTTP動詞 | パス 
 
 
  a| 

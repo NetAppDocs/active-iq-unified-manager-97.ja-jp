@@ -27,7 +27,7 @@ image::../media/create-luns.gif[LUNs を作成します]
 +
 [cols="1a,1a,1a"]
 |===
-| カテゴリ | HTTP 動詞 | パス 
+| カテゴリ | HTTP動詞 | パス 
 
 
  a| 
@@ -48,7 +48,7 @@ image::../media/create-luns.gif[LUNs を作成します]
 +
 [cols="1a,1a,1a"]
 |===
-| カテゴリ | HTTP 動詞 | パス 
+| カテゴリ | HTTP動詞 | パス 
 
 
  a| 
@@ -63,7 +63,7 @@ image::../media/create-luns.gif[LUNs を作成します]
 +
 [cols="1a,1a,1a"]
 |===
-| カテゴリ | HTTP 動詞 | パス 
+| カテゴリ | HTTP動詞 | パス 
 
 
  a| 
@@ -71,7 +71,7 @@ image::../media/create-luns.gif[LUNs を作成します]
  a| 
 取得
  a| 
-`/datacenter/protocols/san/igroups`  `+/datacenter/protocols/san/igroups/{key}+`
+`/datacenter/protocols/san/igroups`     `+/datacenter/protocols/san/igroups/{key}+`
 
 |===
 +
@@ -81,7 +81,7 @@ igroup がアクセス権を持つ SVM をパラメータ値として入力す�
 +
 [cols="1a,1a,1a"]
 |===
-| カテゴリ | HTTP 動詞 | パス 
+| カテゴリ | HTTP動詞 | パス 
 
 
  a| 
@@ -95,11 +95,11 @@ igroup がアクセス権を持つ SVM をパラメータ値として入力す�
 +
 作成する igroup の詳細を、入力パラメータとして指定する必要があります。これは同期呼び出しであり、 igroup の作成を出力で確認できます。エラーが発生した場合はメッセージが表示されるため、トラブルシューティングしてAPIを再実行します。
 
-. LUN を作成します。
+. LUNを作成します。
 +
 [cols="1a,1a,1a"]
 |===
-| カテゴリ | HTTP 動詞 | パス 
+| カテゴリ | HTTP動詞 | パス 
 
 
  a| 
@@ -143,7 +143,7 @@ JSON 出力にジョブオブジェクトキーが表示され、作成した LU
 +
 [cols="1a,1a,1a"]
 |===
-| カテゴリ | HTTP 動詞 | パス 
+| カテゴリ | HTTP動詞 | パス 
 
 
  a| 
@@ -176,7 +176,7 @@ management-server
 +
 [cols="1a,1a,1a"]
 |===
-| カテゴリ | HTTP 動詞 | パス 
+| カテゴリ | HTTP動詞 | パス 
 
 
  a| 
@@ -282,7 +282,7 @@ The nodes <node_name> and <partner_node_name> have no LIFs configured with the i
 +
 [cols="1a,1a,1a"]
 |===
-| カテゴリ | HTTP 動詞 | パス 
+| カテゴリ | HTTP動詞 | パス 
 
 
  a| 
@@ -319,7 +319,7 @@ curl -X POST "https://<hostname>/api/storage-provider/access-endpoints" -H "acce
 +
 [cols="1a,1a,1a"]
 |===
-| カテゴリ | HTTP 動詞 | パス 
+| カテゴリ | HTTP動詞 | パス 
 
 
  a| 
@@ -360,7 +360,7 @@ management-server
 +
 [cols="1a,1a,1a"]
 |===
-| カテゴリ | HTTP 動詞 | パス 
+| カテゴリ | HTTP動詞 | パス 
 
 
  a| 
@@ -393,7 +393,7 @@ JSON 出力にジョブオブジェクトキーが表示され、マッピング
 +
 [cols="1a,1a,1a"]
 |===
-| カテゴリ | HTTP 動詞 | パス 
+| カテゴリ | HTTP動詞 | パス 
 
 
  a| 

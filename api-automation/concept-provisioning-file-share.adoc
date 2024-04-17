@@ -32,7 +32,7 @@ image::../media/create-fileshares.gif[ファイル共有を作成します]
 +
 [cols="1a,1a,1a"]
 |===
-| カテゴリ | HTTP 動詞 | パス 
+| カテゴリ | HTTP動詞 | パス 
 
 
  a| 
@@ -63,7 +63,7 @@ CIFS プロトコルを有効にしてアクセスエンドポイントを作成
 +
 [cols="1a,1a,1a"]
 |===
-| カテゴリ | HTTP 動詞 | パス 
+| カテゴリ | HTTP動詞 | パス 
 
 
  a| 
@@ -102,7 +102,7 @@ JSON 出力にジョブオブジェクトキーが表示され、作成したア
 +
 [cols="1a,1a,1a"]
 |===
-| カテゴリ | HTTP 動詞 | パス 
+| カテゴリ | HTTP動詞 | パス 
 
 
  a| 
@@ -119,7 +119,7 @@ management-server
 +
 [cols="1a,1a,1a"]
 |===
-| カテゴリ | HTTP 動詞 | パス 
+| カテゴリ | HTTP動詞 | パス 
 
 
  a| 
@@ -134,7 +134,7 @@ management-server
 +
 [cols="1a,1a,1a"]
 |===
-| カテゴリ | HTTP 動詞 | パス 
+| カテゴリ | HTTP動詞 | パス 
 
 
  a| 
@@ -172,7 +172,7 @@ curl -X POST "https://<hostname>/api/storage-provider/active-directories-mapping
 +
 [cols="1a,1a,1a"]
 |===
-| カテゴリ | HTTP 動詞 | パス 
+| カテゴリ | HTTP動詞 | パス 
 
 
  a| 
@@ -193,7 +193,7 @@ curl -X POST "https://<hostname>/api/storage-provider/active-directories-mapping
 +
 [cols="1a,1a,1a"]
 |===
-| カテゴリ | HTTP 動詞 | パス 
+| カテゴリ | HTTP動詞 | パス 
 
 
  a| 
@@ -262,7 +262,7 @@ NFS 共有のプロビジョニングする際には、必要なすべての値�
 +
 [cols="1a,1a,1a"]
 |===
-| カテゴリ | HTTP 動詞 | パス 
+| カテゴリ | HTTP動詞 | パス 
 
 
  a| 
@@ -280,7 +280,7 @@ JSON 出力にジョブオブジェクトキーが表示され、作成したフ
 +
 [cols="1a,1a,1a"]
 |===
-| カテゴリ | HTTP 動詞 | パス 
+| カテゴリ | HTTP動詞 | パス 
 
 
  a| 
@@ -316,7 +316,7 @@ management-server
 +
 [cols="1a,1a,1a"]
 |===
-| カテゴリ | HTTP 動詞 | パス 
+| カテゴリ | HTTP動詞 | パス 
 
 
  a| 
