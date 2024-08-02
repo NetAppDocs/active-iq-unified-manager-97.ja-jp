@@ -958,7 +958,6 @@
   <block id="e28ab1dac11a8a6babec11d768ded66a" category="paragraph">保護イベントは、 SnapMirror 関係に関するインシデントやリスク、デスティネーションの容量の問題、 SnapVault 関係の問題、または保護ジョブの問題について通知するイベントです。セカンダリボリュームおよび保護関係をホストする ONTAP オブジェクト（アグリゲート、ボリューム、および SVM ）は、いずれもこの影響領域に分類されます。</block>
   <block id="1e1fe2d30ed5bb9c5276dddb65f4ce65" category="list-text">* セキュリティ *</block>
   <block id="0303e15cb5131cd4b937c60c3de7bb42" category="inline-link">ONTAP 9 セキュリティ設定ガイド</block>
-  <block id="a9518f09019b40e9f9d0808f91e32925" category="paragraph">セキュリティイベントは、で定義されたパラメータに基づいて、 ONTAP クラスタ、 Storage Virtual Machine （ SVM ）、およびボリュームのセキュリティがどの程度確保されるかを通知します<block ref="ec993f435ccd69f53c3f46dcd44c6bdd" category="inline-link-rx"></block>。</block>
   <block id="26426dd05fca05471c34919c8d351e36" category="paragraph">また、この領域には、 Active IQ プラットフォームから報告されるアップグレードイベントも含まれます。</block>
   <block id="b6278f10a1ec7d125b84d21f9270c79d" category="summary">クラスタ / 健全性の詳細ページには、選択したクラスタについて、健全性、容量、設定の詳細などの情報が表示されます。クラスタのネットワークインターフェイス（LIF \）、ノード、ディスク、関連するデバイス、および関連するアラートに関する情報も確認できます。</block>
   <block id="cadc3fa43d91d3cec91ae722cbe6b96a" category="doc">クラスタ / 健全性の詳細ページ</block>
@@ -2079,7 +2078,6 @@
   <block id="5ae387dba42b22999d9b9380a601c0e5" category="doc">クラスタのセキュリティ目標の管理</block>
   <block id="aa5ea9a79b8363872969fe3e4d5ce9b3" category="paragraph">Unified Manager には、『 ONTAP 9_ NetApp Security Hardening Guide for ONTAP 』に定義されている推奨事項を基に、 クラスタ、 Storage Virtual Machine （ SVM ）、およびボリュームがどの程度セキュアであるかを示すダッシュボードが用意されています。</block>
   <block id="e60416fe8f102037593aec660b785842" category="paragraph">セキュリティダッシュボードの目的は、 ONTAP クラスタがネットアップ推奨のガイドラインに従っていない領域を提示して、潜在的な問題を修正できるようにすることです。ほとんどの場合、問題は ONTAP System Manager または ONTAP CLI を使用して解決します。組織がすべての推奨事項に従うとは限らないため、場合によっては変更を加える必要がありません。</block>
-  <block id="60443e5478cdf6c85aba4b527880b533" category="paragraph">を参照してください<block ref="ec993f435ccd69f53c3f46dcd44c6bdd" category="inline-link-rx"></block> 詳細な推奨事項と解決策については、 TR-4569 を参照してください。</block>
   <block id="349b5120a9ed5730c85dd33d0233bfa1" category="paragraph">Unified Manager は、セキュリティステータスを報告するだけでなく、セキュリティ違反があるクラスタまたは SVM に対してセキュリティイベントを生成します。これらの問題はイベント管理インベントリページで追跡できます。また、イベントにアラートを設定して、新たなセキュリティイベントが発生したときにストレージ管理者が通知を受け取るようにすることができます。</block>
   <block id="e9c26dc02360242a121617a7074ae423" category="summary">Unified Managerを実行するホストオペレーティングシステムを変更する場合は、Unified Managerデータベースのバックアップを仮想アプライアンスからRed Hat Enterprise LinuxシステムまたはCentOS Linuxシステムにリストアすることができます。</block>
   <block id="78a4b48e7cdb9b97aa7767907cc7567d" category="doc">Linux システムへの Unified Manager 仮想アプライアンスの移行</block>
@@ -2357,7 +2355,6 @@
   <block id="3a215c293d531341a13e54d1b4f767d8" category="list-text">ピアクラスタの通信が暗号化されているかどうか</block>
   <block id="34c28c126e19226f9ae33dc5640078bb" category="list-text">Storage VM の監査ログが有効になっているかどうか</block>
   <block id="8083dc3f1ad1356d39b70d2189b04945" category="list-text">ボリュームでソフトウェアまたはハードウェアの暗号化が有効になっているかどうか</block>
-  <block id="eab70e6fe7e77946b94068e68a8ce442" category="paragraph">コンプライアンスのカテゴリおよびのトピックを参照してください<block ref="ec993f435ccd69f53c3f46dcd44c6bdd" category="inline-link-rx"></block> を参照してください。</block>
   <block id="c59a5985bd2d618db813147ff21b648b" category="paragraph">Active IQ プラットフォームから報告されるアップグレードイベントもセキュリティイベントとみなされます。これらのイベントは、 ONTAP ソフトウェア、ノードファームウェア、またはオペレーティングシステムソフトウェア（セキュリティアドバイザリ用）のアップグレードが必要な問題を示します。これらのイベントは [ セキュリティ ] パネルには表示されませんが、 [ イベント管理 ] インベントリページから確認できます。</block>
   <block id="9637c473b7a84e9795833241aff49a4d" category="summary">データベースリストアとは、Unified Managerの既存のバックアップファイルを同じサーバまたは別のUnified Managerサーバにリストアするプロセスです。リストア処理はUnified Managerコンソールから実行します。</block>
   <block id="7a0d3ac0b28fc468df38e64dd7880224" category="doc">データベースリストアとは何ですか</block>
@@ -2473,7 +2470,6 @@
   <block id="001cdcc1bced815dbb889c31d496a91c" category="list-text">セキュリティ * パネルの右矢印をクリックします。</block>
   <block id="21b404ba083f7cb1aacb4498842a979b" category="paragraph">Security ページには、次の情報が表示されます。</block>
   <block id="1113c5580efb5e128133e0c849ea6b54" category="list-text">各クラスタで使用されているクラスタ認証方式</block>
-  <block id="a4deeec5e2b40be9ffab412cfc04266c" category="list-text">を参照してください<block ref="ec993f435ccd69f53c3f46dcd44c6bdd" category="inline-link-rx"></block> すべてのクラスタ、 SVM 、およびボリュームを、ネットアップのセキュリティに関する推奨事項に準拠させていただく方法については、を参照してください。</block>
   <block id="c00482ad36e6872df814de65cca76edf" category="summary">Unified Manager でスクリプトを追加し、アラートに関連付けることができます。アラートが生成されるとこれらのスクリプトが自動的に実行されるため、イベントが生成されたストレージオブジェクトに関する情報を取得できます。</block>
   <block id="e7d21f61e7a597f7f3323a47a92f0429" category="doc">スクリプトの追加</block>
   <block id="abc3ced58c2d7442242b8f99ebe0e497" category="list-text">Unified Manager サーバに追加するスクリプトを作成して保存しておく必要があります。</block>
@@ -4075,7 +4071,6 @@ Configure Protection （保護の設定）ダイアログボックスが表示�
   <block id="713d9eb7bae81414a341cd2b9ad04f0e" category="paragraph">Unified Manager はメモリの少ないシステムにもインストールできますが、推奨される 12GB の RAM があれば最適なパフォーマンスが保証されるだけでなく、拡張時にクラスタやストレージオブジェクトの追加にも対応できます。Unified Managerを導入するVMにはメモリの上限などを設定しないでください。また、ソフトウェアがシステムで割り当てられているメモリを利用できなくなる機能（バルーニングなど）は有効にしないでください。</block>
   <block id="1ba321baad6e31e95cddb86bd159a0ab" category="paragraph">また、1つのUnified Managerインスタンスで監視できるノードの数には上限があり、この上限を超える場合は2つ目のUnified Managerインスタンスをインストールする必要があります。詳細については、_ベストプラクティスガイド_を参照してください。</block>
   <block id="9650789293045a87cc14a47729b5ebfc" category="inline-link">テクニカルレポート 4621 ：『 Unified Manager Best Practices Guide 』</block>
-  <block id="badef135127b32313f0e0eebe283472f" category="paragraph"><block ref="badef135127b32313f0e0eebe283472f" category="inline-link-rx"></block></block>
   <block id="ccd350b03208f21a01e8434aa29bf22c" category="paragraph">メモリページのスワッピングは、システムや管理アプリケーションのパフォーマンスに悪影響を及ぼします。CPU リソースがホスト全体で競合して使用できなくなると、パフォーマンスが低下する可能性があります。</block>
   <block id="4019b02afc32a61e39e48a05d352cdf9" category="section-title">専用使用の要件</block>
   <block id="f8a1acaf90775fd387de63d0c7d02a5a" category="paragraph">Unified Managerをインストールする物理システムまたは仮想システムは、他のアプリケーションとは共有せず、Unified Manager専用にする必要があります。他のアプリケーションにシステムリソースが消費されることで、 Unified Manager のパフォーマンスが大幅に低下する可能性があります。</block>
@@ -6809,7 +6804,6 @@ Configure Protection （保護の設定）ダイアログボックスが表示�
   <block id="f804ed2945f8b8f58e9c8ebf45b6d70a" category="paragraph">Unified Manager のアプリケーションの健常性とパフォーマンスの問題に関するデータ。</block>
   <block id="030a4fbaf40ce64a3de26a58a2349f3b" category="paragraph">レポートスキーマロールを持つデータベースユーザーであるレポートユーザーは、これらのテーブルのデータにアクセスできます。このユーザには、レポートおよびその他のデータベースビューに Unified Manager データベースから直接アクセスするための読み取り専用アクセスが付与されます。このユーザには、ユーザデータやクラスタクレデンシャル情報を含むテーブルにアクセスする権限はありません。</block>
   <block id="43c57f8ab49b52141a07a60ab8386a94" category="inline-link">Unified Managerレポートのテクニカルレポートを参照してください</block>
-  <block id="ef284f778ff870c90bd04052fa19e3d6" category="paragraph">を参照してください<block ref="204d4ee1ca42e994250ea354be144e73" category="inline-link-rx"></block> 詳細については、TR-4565を参照してください。</block>
   <block id="f869c5ebf4dab96af5c925d450b297fc" category="summary">以下に記載するサンプルのカスタムレポートを使用して、アグリゲートのストレージ容量に関連する潜在的な問題を特定して対処することができます。</block>
   <block id="cd8b3d3744695ca73f8c29af659a98a7" category="doc">アグリゲート容量レポートのカスタマイズ</block>
   <block id="3d9f8138f17e1d3282f0e4926b433f0d" category="paragraph">このセクションのレポートは、それぞれのストレージシステムリソースの監視に役立つアグリゲート容量レポートの作成方法を説明するためのサンプルです。</block>
@@ -8327,7 +8321,6 @@ Configure Protection （保護の設定）ダイアログボックスが表示�
   <block id="13afab58626a9721d363115ba16e409c" category="list-text">* 場所 *</block>
   <block id="1c481859349400daca1dde18892244e3" category="paragraph">クラスタの場所。</block>
   <block id="ae66a56126cf2726904ab28390ff838b" category="inline-link">ネットアップテクニカルレポート3966：『ネットアップのデータ圧縮機能と重複排除機能導入および実装ガイド：clustered Data ONTAP 』</block>
-  <block id="df4f489fd8783506ee2d692048efa87d" category="paragraph"><block ref="df4f489fd8783506ee2d692048efa87d" category="inline-link-rx"></block></block>
   <block id="9b63abcfe3f8c73d0c6ae39853553d6b" category="summary">グループの詳細ページでは、選択したグループの詳細を表示できます。選択したグループに関連付けられているグループルールやグループアクションなどの追加情報 を表示することもできます。</block>
   <block id="3af161a4a576d91007980aa2aca898bd" category="doc">グループの詳細ページ</block>
   <block id="b03063595337df6c7b1dc83742dc1466" category="list-text">*グループの表示*</block>
@@ -9087,7 +9080,6 @@ Configure Protection （保護の設定）ダイアログボックスが表示�
   <block id="dbbb25505b3a4586da3364432f2256b9" category="paragraph">ONTAP System Manager または ONTAP コマンドを使用して、 Flash Cache がインストールされて有効になっているかを確認し、有効になっていない場合は有効にすることができます。次のコマンドは、Flash Cacheが特定のノードで有効になっているかどうかを示します。<block ref="48de88639c7fbb304293e385f1577ff8" prefix=" " category="inline-code"></block></block>
   <block id="4226c3da2a5d50e1c8abfdfbf9bd3780" category="paragraph">Flash Cache とその使用要件については、次のテクニカルレポートを参照してください。</block>
   <block id="4d594fa378085e019a42ca73e740986c" category="inline-link">テクニカルレポート 3832 ：『 Flash Cache Best Practices Guide 』</block>
-  <block id="e9f146d71f531c29c1d0c53c51f7c325" category="paragraph"><block ref="e9f146d71f531c29c1d0c53c51f7c325" category="inline-link-rx"></block></block>
   <block id="45e4d78752e83990dd874962b3a3b7a8" category="summary">QoSポリシーグループビューには、Unified Managerが監視しているクラスタで使用可能なQoSポリシーグループが表示されます。これには、従来のQoSポリシー、アダプティブQoSポリシー、およびパフォーマンスサービスレベルを使用して割り当てられたQoSポリシーが含まれます。</block>
   <block id="3d98594cb68da49f979ba1326b7c43cb" category="doc">Performance：QoS Policy Groupsビュー</block>
   <block id="c6f7850db75fb22b709c22a7fda38791" category="paragraph">ページの上部にあるコントロールを使用すると、目的のQoSポリシーのタイプに基づいて特定のビューを選択したり、特定のオブジェクトを検索したり、フィルタを作成して適用して表示されるデータのリストを絞り込んだり、ページの列の追加/削除/並べ替えを行ったりできます。ページ上のデータをにエクスポートします<block ref="01b1b6ebeb388697cca6712b58439069" prefix=" " category="inline-code"></block> または<block ref="abdf095626d4a4ab2bcd4167b128c1f1" prefix=" " category="inline-code"></block> ファイル。</block>
@@ -10646,7 +10638,6 @@ LDAP のユーザオブジェクトクラスとグループオブジェクトク
   <block id="d21bd646d39b279f0986265e8c3deb27" category="paragraph">このパネルには、特定の範囲のIOPSで現在実行されているワークロードの総数とディスクタイプ別の内訳が表示されます。</block>
   <block id="1ecbc8fb8eca10a2fdf2aadab4dc23e7" category="paragraph">このパネルには、定義された各パフォーマンスサービスレベルに割り当てられている準拠ワークロードと非準拠ワークロードの総数が表示されます。また、 PSL が割り当てられていないアグリゲートの数も表示されます。棒グラフをクリックすると、そのポリシーに割り当てられているワークロードがワークロードページに表示されます。</block>
   <block id="ef4fe1b8268d44620ad24ec7733645fd" category="list-text">* セキュリティパネル *</block>
-  <block id="b5a02b43c4ba4ef255b870e5445743ec" category="paragraph">すべてのクラスタを表示している場合、このパネルには、準拠または非準拠のクラスタ数、準拠または非準拠のSVM数、暗号化されたボリュームまたはされていないボリュームの数が表示されます。コンプライアンスは、に基づいています<block ref="ec993f435ccd69f53c3f46dcd44c6bdd" category="inline-link-rx"></block>。パネル上部の右矢印をクリックして、 Security ページですべてのクラスタのセキュリティの詳細を表示します。</block>
   <block id="1ba97f84f3ef4d501c6b95e342e2c990" category="paragraph">単一のクラスタを表示している場合は、このパネルには、クラスタが準拠しているかどうか、準拠または非準拠のSVM数、暗号化されているボリュームまたはされていないボリュームの数が表示されます。パネル上部の右矢印をクリックして、 Security ページでクラスタのセキュリティの詳細を表示します。</block>
   <block id="780ec40cc715a112c118d12f06bd508f" category="paragraph">すべてのクラスタを表示している場合、 IOPS 、スループット（ MBps ）、または使用済み物理容量が大きい順にクラスタを表示できます。</block>
   <block id="679a6cb52d288606b40441a1a28c5abf" category="paragraph">単一のクラスタを表示している場合は、IOPS、スループット（MBps）、または使用済み物理容量が大きい順にワークロードを表示できます。</block>
@@ -10872,7 +10863,6 @@ LDAP のユーザオブジェクトクラスとグループオブジェクトク
   <block id="7c48a0120101491ea5a781058b5716de" category="doc">ディスクを追加してアグリゲートレイアウトを再構築する</block>
   <block id="fdf3b7352c190d213c24db064ec3a78e" category="paragraph">イベントの詳細ページにシステム定義のしきい値イベントが表示された場合、問題があるアグリゲートの名前がイベント概要のテキストに表示されます。このアグリゲートに対して、ディスクを追加してデータを再構築できます。</block>
   <block id="c993772a65e087ac68acfde3645c3287" category="inline-link">テクニカルレポート 3838 ：『 Storage Subsystem Configuration Guide 』</block>
-  <block id="0379ced083df169219dc62cc5068b75c" category="paragraph"><block ref="0379ced083df169219dc62cc5068b75c" category="inline-link-rx"></block></block>
   <block id="e961e72d52e00a50df75120a23831074" category="summary">クラスタセットアップページには、Unified Managerが現在監視しているクラスタに関する情報が表示されます。このページでは、クラスタの追加、クラスタ設定の編集、クラスタの削除を行うことができます。</block>
   <block id="0749a299c2c226d1d95ff96c60d6b4b3" category="doc">クラスタセットアップページ</block>
   <block id="c8d97838466a4c8fe82ac073d646025f" category="paragraph">ページの下部にあるメッセージは、Unified Managerがクラスタからパフォーマンスデータを収集する頻度を示します。デフォルトの収集間隔は5分ですが、大規模なクラスタからの収集が時間内に完了しない場合は、メンテナンスコンソールでこの間隔を変更できます。</block>
@@ -12502,4 +12492,14 @@ LDAP のユーザオブジェクトクラスとグループオブジェクトク
   <block id="5fdeb821d7d24c5498fe42bdf6a8e55d" category="sidebar"><strong>[修正]</strong> ボタンが表示されたら、どのようなオプションがありますか</block>
   <block id="19966a54541b838c85278932c36c8122" category="sidebar">Unified Managerのホスト名の変更（管理と監視）</block>
   <block id="433a3de67ad10a966d2b8b61c37210d2" category="sidebar">Unified Managerデータベースディレクトリへのディスクスペースの追加（管理および監視）</block>
+  <block id="a5c178ca0adb1a0269f3bd998293dd38" category="paragraph">詳細な推奨事項と解決策については、（TR-4569）を参照してください<block ref="736160f7960b3abe2152eecfe71d1435" category="inline-link-rx"></block> 。</block>
+  <block id="672333e5623d0406e27edefd4a600c08" category="paragraph">詳細については、準拠カテゴリに関するトピックおよびを参照してください<block ref="736160f7960b3abe2152eecfe71d1435" category="inline-link-rx"></block> 。</block>
+  <block id="1af9d8b43c265c6a772871d91469520e" category="paragraph">セキュリティイベントは、で定義されたパラメータに基づいて、ONTAPクラスタ、Storage Virtual Machine（SVM）、およびボリュームがどの程度セキュアであるかを通知します<block ref="736160f7960b3abe2152eecfe71d1435" category="inline-link-rx"></block>。</block>
+  <block id="356446276fe0b8850474bcda6d3dbdb0" category="list-text">すべてのクラスタ、SVM、およびボリュームをNetAppのセキュリティに関する推奨事項に準拠させる方法については、を参照してください<block ref="736160f7960b3abe2152eecfe71d1435" category="inline-link-rx"></block> 。</block>
+  <block id="ee26087a8b7ec790988603a3298c45f3" category="paragraph"><block ref="ee26087a8b7ec790988603a3298c45f3" category="inline-link-rx"></block></block>
+  <block id="06c70b026e4d10bfcd7be2ebfa770d1c" category="paragraph"><block ref="06c70b026e4d10bfcd7be2ebfa770d1c" category="inline-link-rx"></block></block>
+  <block id="a87e9b78df20679676eb71ecb2dadaf4" category="paragraph">詳細については、（TR-4565）を参照してください<block ref="7a573ad874e1456bf6b4f96b852006f2" category="inline-link-rx"></block> 。</block>
+  <block id="ec41073735b02d172b0bc1ee60ea5ec9" category="paragraph"><block ref="ec41073735b02d172b0bc1ee60ea5ec9" category="inline-link-rx"></block></block>
+  <block id="20bde173581d26c0c8c8f826587fe6b1" category="paragraph">すべてのクラスタを表示している場合、このパネルには、準拠または非準拠のクラスタ数、準拠または非準拠のSVM数、暗号化されたボリュームまたはされていないボリュームの数が表示されます。準拠はに基づいてい<block ref="736160f7960b3abe2152eecfe71d1435" category="inline-link-rx"></block>ます。パネル上部の右矢印をクリックして、 Security ページですべてのクラスタのセキュリティの詳細を表示します。</block>
+  <block id="796f4a9be8e525f7e4d64c24bac529c9" category="paragraph"><block ref="796f4a9be8e525f7e4d64c24bac529c9" category="inline-link-rx"></block></block>
 </blocks>
