@@ -12398,7 +12398,6 @@ LDAP のユーザオブジェクトクラスとグループオブジェクトク
   <block id="be8a1a78e920b30457f1add511c9b5a4" category="paragraph">ポリシーのリストには、選択したオブジェクトで使用されているポリシーのみが表示されます。</block>
   <block id="6f92b6c1d0ae8d977e4c6ca7e5b0cbfc" category="paragraph">ストレージオブジェクトから削除するポリシーを選択し、*ポリシーのクリア*をクリックします。</block>
   <block id="f35b15966925f799d1c13674cc8bff50" category="sidebar">Active IQ Unified Manager （Unified Manager、旧OnCommand Unified Manager）を使用すると、ONTAP ストレージシステムの健全性とパフォーマンスを1つのインターフェイスから監視および管理できます。このドキュメントライブラリには、バージョン9.7の情報が含まれています。</block>
-  <block id="4a58c6ba2ac7cf0f2cd001d223b14e50" category="sidebar">Active IQ Unified Manager のドキュメント</block>
   <block id="91d9102f2b20d2487525cb47bf7d79a5" category="sidebar">Active IQ Unified Manager 、 AIQUM のドキュメント、 UM のドキュメント</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">はじめに</block>
   <block id="54cee202b784163d7cdf325cdd6aa6c6" category="sidebar">VMware vSphere のクイックスタートインストール</block>
@@ -12502,4 +12501,5 @@ LDAP のユーザオブジェクトクラスとグループオブジェクトク
   <block id="ec41073735b02d172b0bc1ee60ea5ec9" category="paragraph"><block ref="ec41073735b02d172b0bc1ee60ea5ec9" category="inline-link-rx"></block></block>
   <block id="20bde173581d26c0c8c8f826587fe6b1" category="paragraph">すべてのクラスタを表示している場合、このパネルには、準拠または非準拠のクラスタ数、準拠または非準拠のSVM数、暗号化されたボリュームまたはされていないボリュームの数が表示されます。準拠はに基づいてい<block ref="736160f7960b3abe2152eecfe71d1435" category="inline-link-rx"></block>ます。パネル上部の右矢印をクリックして、 Security ページですべてのクラスタのセキュリティの詳細を表示します。</block>
   <block id="796f4a9be8e525f7e4d64c24bac529c9" category="paragraph"><block ref="796f4a9be8e525f7e4d64c24bac529c9" category="inline-link-rx"></block></block>
+  <block id="dd5452c4b1a9b73792ee149d9b8c4bd0" category="sidebar">Active IQ Unified Manager 9.7ドキュメント</block>
 </blocks>
